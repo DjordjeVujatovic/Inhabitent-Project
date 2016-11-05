@@ -1,6 +1,6 @@
 .site-footer {
 	background: url(../../images/dark-wood@2x.png);
-	padding: 5%;
+	padding: 3%;
 }
 .company-info {
 	display: flex;
@@ -25,4 +25,7 @@
 	img {
 		max-width:50%;
 	}
+}
+.copyright-tag {
+	margin: 0 auto;
 }
