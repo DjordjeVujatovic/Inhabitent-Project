@@ -703,6 +703,66 @@ object {
   margin: 0 auto; }
 
 .home-hero-image {
-  background: url(../../images/inhabitent-logo-full.svg) no-repeat center center, url(../../images/home-hero.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.25)), url(../../images/inhabitent-logo-full.svg) no-repeat center center, url(../../images/home-hero.jpg);
   height: 600px;
-  background-size: auto, cover; }
+  background-size: cover, auto, cover; }
+
+.latest-adventures {
+  text-align: center;
+  text-transform: uppercase; }
+
+.adventure-section {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 500px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30px; }
+
+.big {
+  background: linear-gradient(rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.25)), url(../../images/adventure-photos/canoe-girl.jpg) center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+  border-right: 20px solid white; }
+
+.medium {
+  width: 100%;
+  height: 50%;
+  border-bottom: 20px white solid; }
+
+.small {
+  display: -ms-flexbox;
+  display: flex;
+  height: 50%;
+  width: 100%; }
+
+.blue {
+  background: linear-gradient(rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.25)), url(../../images/adventure-photos/beach-bonfire.jpg) center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 20px solid white; }
+
+.green {
+  background: linear-gradient(rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.25)), url(../../images/adventure-photos/mountain-hikers.jpg) center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+  border-right: 20px white solid; }
+
+.yellow {
+  background: linear-gradient(rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.25)), url(../../images/adventure-photos/night-sky.jpg) center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 50%; }
+
+.rest {
+  height: 100%;
+  width: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
