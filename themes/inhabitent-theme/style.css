@@ -704,7 +704,7 @@ object {
 
 .home-hero-image {
   background: linear-gradient(rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.25)), url(../../images/inhabitent-logo-full.svg) no-repeat center center, url(../../images/home-hero.jpg);
-  height: 600px;
+  height: 100vh;
   background-size: cover, auto, cover; }
 
 .latest-adventures {
