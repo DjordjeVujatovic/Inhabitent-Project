@@ -792,14 +792,6 @@ article {
   padding-right: 2rem;
   padding-top: 48px; }
 
-.side-bar {
-  -ms-flex-preferred-size: 25%;
-      flex-basis: 25%;
-  border-left: 1px solid #e1e1e1;
-  padding-left: 2rem; }
-  .side-bar .contact-info {
-    padding-top: 48px; }
-
 .entry-header {
   position: relative;
   width: 100%; }
@@ -835,6 +827,8 @@ article {
   padding: .8rem 1.2rem;
   margin-top: 4%;
   text-transform: uppercase; }
+  .read-more-article a {
+    color: black; }
   .read-more-article:hover {
     background-color: #248a83;
     border: 1px solid #248a83;
@@ -865,3 +859,21 @@ article {
 
 .nav-previous, .nav-next {
   display: none; }
+
+.side-bar {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  border-left: 1px solid #e1e1e1;
+  padding-left: 2rem; }
+
+.contact-info {
+  padding-top: 48px; }
+  .contact-info a {
+    text-decoration: none;
+    color: #248a83; }
+    .contact-info a i {
+      color: black; }
+
+.archives a {
+  text-decoration: none;
+  color: #248a83; }
