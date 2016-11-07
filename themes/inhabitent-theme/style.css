@@ -866,12 +866,12 @@ article {
   border-left: 1px solid #e1e1e1;
   padding-left: 2rem; }
 
-.contact-info {
+.contact-info-sidebar {
   padding-top: 48px; }
-  .contact-info a {
+  .contact-info-sidebar a {
     text-decoration: none;
     color: #248a83; }
-    .contact-info a i {
+    .contact-info-sidebar a i {
       color: black; }
 
 .archives a {

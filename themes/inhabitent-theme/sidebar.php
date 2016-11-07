@@ -14,7 +14,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 	<?php dynamic_sidebar( 'sidebar-1' ); ?>
 </div><!-- #secondary -->
 <section class ="side-bar">
-<div class= "contact-info">
+<div class= "contact-info-sidebar">
     <h3>Contact Info</h3>
     <p><a href="tel:778-456-7891">
 	<i class="fa fa-phone" aria-hidden="true"></i> 778-456-7891</a></p>
