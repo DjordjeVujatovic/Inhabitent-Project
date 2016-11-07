@@ -20,18 +20,30 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-<h2 class = "latest-adventures">Latest Adventures</h2>
-<section class="adventure-section">
-  <div class="big"> </div>
-  <div class="rest">
-    <div class="medium">
-      <div class="blue"></div>
-    </div>
-    <div class="small">
-      <div class="green"></div>
-      <div class="yellow"></div>
-    </div>
+<section class="adventures-container">
+	<h2 class = "latest-adventures">Latest Adventures</h2>s
+<div class="adventure-section">
+  <div class="left-box">
+  	<!--<h3 class = "entry-title"><a href= "">Getting Back to Nature in a Canoe</a></h3>
+  	<a class = "read-more-button" href = "">Read More</a>-->
   </div>
+  <div class="right-mix">
+    <div class="top-right">
+      <div class="right-box-top">
+      </div>
+    </div>
+    <div class="right-box-bottom">
+      <div class="bottom-right">
+      	<!--<h3 class = "entry-title"><a href= "">Taking in the View at Big Mountain</a></h3>
+      	<a class = "read-more-button" href = "">Read More</a>-->
+      </div>
+      <div class="bottom-left">
+      	<!--<h3 class = "entry-title"><a href= "">Star-Gazing at the Night Sky</a></h3>
+      	<a class = "read-more-button" href = "">Read More</a>-->
+      </div>
+   </div>
+  </div>
+ </div>
 </section>
 
 <?php get_footer(); ?>

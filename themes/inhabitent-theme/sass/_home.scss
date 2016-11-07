@@ -1,0 +1,54 @@
+.content-area {
+	display: flex;
+	width: 1120px;
+	margin:0 auto;
+	padding-top: 48px;
+
+}
+article {
+	flex-basis:75%;
+	width:640px;
+	padding-right: 2rem;
+	padding-top: 48px;
+}
+.side-bar {
+	flex-basis:25%;
+	border-left: 1px solid #e1e1e1;
+	padding-left:2rem;
+
+	.contact-info {
+		padding-top: 48px;
+	}
+}
+.entry-header {
+	position:relative;
+	width:100%;
+
+	.entry-title {
+		position:absolute;
+		top:0px;
+		background: #248a83;
+		color:white;
+		width:75%;
+		padding:1rem;
+
+		a {
+		width: 75%;
+		height:25%;
+		color: white;
+    	text-decoration: none;
+    	font-size: 2rem;
+		}
+	}
+}
+.entry-meta {
+    position: absolute;
+    bottom: 7px;
+    left: 195px;
+    color: #fff;
+    width: 68%;
+    background: #248a83;
+    text-align: center;
+
+
+}
