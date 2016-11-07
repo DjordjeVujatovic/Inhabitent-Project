@@ -44,11 +44,26 @@ article {
 .entry-meta {
     position: absolute;
     bottom: 7px;
-    left: 195px;
+    right:0;
     color: #fff;
-    width: 68%;
+    width: 75%;
     background: #248a83;
     text-align: center;
+    text-transform:uppercase;
 
 
+}
+.read-more-article {
+   border: 1px solid black;
+   text-decoration: none;
+   color: black;
+   font-size: 1.5rem;
+   padding: .8rem 1.2rem;
+   margin-top: 4%;
+   text-transform: uppercase;
+   &:hover {
+       background-color: #248a83;
+       border: 1px solid #248a83;
+       color: white;
+   }
 }
