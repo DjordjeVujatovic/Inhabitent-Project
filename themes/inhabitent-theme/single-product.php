@@ -22,7 +22,7 @@ get_header(); ?>
 					comments_template();
 				endif;
 			?>
-
+			<?php echo CFS()->get( 'product_price' ); ?>
 		<?php endwhile; // End of the loop. ?>
 	
 		</main><!-- #main -->
