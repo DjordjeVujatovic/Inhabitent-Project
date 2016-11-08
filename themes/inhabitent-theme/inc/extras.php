@@ -32,3 +32,23 @@ function my_login_logo() { ?>
 <?php }
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
 
+/* Custom About Page background image
+*/
+
+function my_styles_method() {
+
+                if(!is_page_template( 'about.php' )){
+                    return;
+                }
+
+       $url = CFS()->get( 'background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
+       $custom_css = "
+               .about-hero{
+                       background-image: url({$url});
+                       height:100vh;
+                       background-size: cover;
+               }";
+       wp_add_inline_style( 'red-starter-style', $custom_css );
+}
+add_action( 'wp_enqueue_scripts', 'my_styles_method' );
+

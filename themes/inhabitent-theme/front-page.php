@@ -16,12 +16,28 @@ get_header(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>
 
-			<?php endwhile; // End of the loop. ?>
+
+			  <?php endwhile; // End of the loop. ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+<section class = "inhabitent-journal">
+  <?php
+   $args = array( 
+    'post_type' => 'post', 
+    'posts_per_page' => 3, 
+    'order' => 'DESC');
+   $journal_posts = get_posts( $args ); // returns an array of posts
+?>
+<?php foreach ( $journal_posts as $post ) : setup_postdata( $post ); ?>
+     <?php the_post_thumbnail(['400px,400px']); ?>
+     <?php  the_date();?>
+     <?php comments_number();?>
+     <?php the_title();?>
+<?php endforeach; wp_reset_postdata(); ?>
+</section>
 <section class="adventures-container">
-	<h2 class = "latest-adventures">Latest Adventures</h2>s
+	<h2 class = "latest-adventures">Latest Adventures</h2>
 <div class="adventure-section">
   <div class="left-box">
   	<!--<h3 class = "entry-title"><a href= "">Getting Back to Nature in a Canoe</a></h3>

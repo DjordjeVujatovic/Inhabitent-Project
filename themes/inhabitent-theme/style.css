@@ -668,19 +668,22 @@ object {
 .gallery-caption {
   display: block; }
 
-.about-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/about-hero.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw; }
+.about-hero {
+  display: -ms-flexbox;
+  display: flex; }
+  .about-hero h1 {
+    color: white; }
 
-.about-us-content {
-  max-width: 800px;
-  margin: 3rem auto; }
-  .about-us-content h2 {
-    text-align: center;
-    text-transform: uppercase; }
+.about-section {
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
+  .about-section h2 {
+    text-transform: uppercase;
+    font-size: 2rem; }
+  .about-section p {
+    font-size: 18px; }
 
 /*--------------------------------------------------------------
 # Page Templates
@@ -792,7 +795,7 @@ object {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
 
-.content-area {
+#primary {
   display: -ms-flexbox;
   display: flex;
   width: 1120px;
