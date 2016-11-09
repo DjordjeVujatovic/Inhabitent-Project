@@ -21,10 +21,10 @@
 						<i class="fa fa-google-plus-square" aria-hidden="true"></i>
 				   </div>
 				   <div class= "business-hours">
-					<h4>Business Hours</h4>
-					<p>Monday-Friday: 9am - 5pm</p>
-					<p>Saturday: 10am - 2pm</p>
-					<p>Sunday: Closed</p>
+				   	<h4>Business Hours</h4>
+				   	<p>Monday-Friday: 9am - 5pm</p>
+				   	<p>Saturday: 10am - 2pm</p>
+				   	<p>Sunday: Closed</p>
 				   </div>
 				   <div class = "footer-logo">
 				    <img src="<?php echo get_template_directory_uri(); ?>/images/inhabitent-logo-text.svg">  

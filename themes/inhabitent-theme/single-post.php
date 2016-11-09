@@ -7,35 +7,35 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
 			<div class = "social-media-button">
-			<a class = "like-button" href ="#"><i class="fa fa-facebook" aria-hidden="true"></i>
-			Like</a>
-			<a class = "tweet-button" href ="#"><i class="fa fa-twitter" aria-hidden="true"></i>
-			Tweet</a>
-			<a class = "pin-button" href ="#"><i class="fa fa-pinterest" aria-hidden="true"></i> Pin</a>
-			</div>
+				<a class = "like-button" href ="#"><i class="fa fa-facebook" aria-hidden="true"></i>
+					Like</a>
+					<a class = "tweet-button" href ="#"><i class="fa fa-twitter" aria-hidden="true"></i>
+						Tweet</a>
+						<a class = "pin-button" href ="#"><i class="fa fa-pinterest" aria-hidden="true"></i> Pin</a>
+					</div>
 
 
-			<?php the_post_navigation(); ?>
+					<?php the_post_navigation(); ?>
 
-			<?php
+					<?php
 				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
-			?>
+					if ( comments_open() || get_comments_number() ) :
+						comments_template();
+					endif;
+					?>
 
-		<?php endwhile; // End of the loop. ?>
+				<?php endwhile; // End of the loop. ?>
 
-		</main><!-- #main -->
-		<?php get_sidebar(); ?>
-	</div><!-- #primary -->
+			</main><!-- #main -->
+			<?php get_sidebar(); ?>
+		</div><!-- #primary -->
 
-<?php get_footer(); ?>
+		<?php get_footer(); ?>

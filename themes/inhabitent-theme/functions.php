@@ -24,7 +24,7 @@ function red_starter_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html( 'Primary Menu' ),
-	) );
+		) );
 
 	// Switch search form, comment form, and comments to output valid HTML5.
 	add_theme_support( 'html5', array(
@@ -33,7 +33,7 @@ function red_starter_setup() {
 		'comment-list',
 		'gallery',
 		'caption',
-	) );
+		) );
 
 }
 endif; // red_starter_setup
@@ -63,7 +63,7 @@ function red_starter_widgets_init() {
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
-	) );
+		) );
 }
 add_action( 'widgets_init', 'red_starter_widgets_init' );
 

@@ -7,8 +7,8 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
 
@@ -23,7 +23,7 @@ get_header(); ?>
 
 
 				<?php get_template_part( 'template-parts/content' ); ?>
-				 <p><a class = "read-more-article" href ="#">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
+				<p><a class = "read-more-article" href ="#">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
 
 
 			<?php endwhile; ?>
@@ -36,8 +36,8 @@ get_header(); ?>
 
 		<?php endif; ?>
 
-		</main><!-- #main -->
-		 <?php get_sidebar(); ?>
-	</div><!-- #primary -->
+	</main><!-- #main -->
+	<?php get_sidebar(); ?>
+</div><!-- #primary -->
 
 <?php get_footer(); ?>
