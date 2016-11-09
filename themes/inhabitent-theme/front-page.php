@@ -18,9 +18,21 @@ get_header(); ?>
 
 
 			  <?php endwhile; // End of the loop. ?>
+        <section class = "product-feed container">
+          <?php
+                $terms = get_terms('product_type');
+                foreach ($terms as $term) :
+          ?>
+           <?php $url = get_term_link($term->slug, 'product_type'); ?>
+              <img src="<?php echo get_template_directory_uri() ?>/images/<?php echo $term->slug?>.svg">
+              <p><?php echo $term->description ?></p>
+              <p><a href="<?php echo $url ?>"><?php echo $term->name ?></a></p>
+            <?php endforeach;?>
+        </section>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+
 <section class = "inhabitent-journal">
   <?php
    $args = array( 
