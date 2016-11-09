@@ -746,6 +746,13 @@ object {
     padding: 20px;
     border: 1px solid gray;
     text-align: center; }
+    .product-feed-container .individual-sections a {
+      border: 1px solid gray;
+      padding: 1rem 2.8rem;
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+      background: #248a83; }
   .product-feed-container img {
     height: 80px;
     width: 100px;
