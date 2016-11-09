@@ -1,11 +1,23 @@
-.side-bar {
+.widget-area {
 	flex-basis:25%;
 	border-left: 1px solid #e1e1e1;
 	padding-left:2rem;
+	padding-top:48px;
+
+	ul {
+		list-style-type: none;
+		padding:0;
+		margin:0;
+
+
+		a{
+		text-decoration: none;
+		color:#248a83;
+		}
+	}
 }
 
 .contact-info-sidebar {
-		padding-top: 48px;
 
 		a{
 		text-decoration:none;
@@ -13,11 +25,5 @@
 		i{
 			color:black;
 		}
-	}
-}
-.archives {
-	a{
-		text-decoration: none;
-		color:#248a83;
 	}
 }
