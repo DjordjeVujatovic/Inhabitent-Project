@@ -913,10 +913,22 @@ object {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: center;
-      justify-content: center;
   -ms-flex-pack: justify;
       justify-content: space-between; }
   .product-post .individual-post {
     -ms-flex-preferred-size: 25%;
         flex-basis: 25%; }
+
+.type-product .product-title-price {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px; }
+  .type-product .product-title-price a {
+    text-decoration: none;
+    color: black; }
+
+.individual-product .entry-header {
+  border: 1px solid grey; }

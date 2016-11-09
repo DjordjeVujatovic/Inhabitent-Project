@@ -14,10 +14,27 @@
 .product-post {
 	display:flex;
 	flex-wrap:wrap;
-	justify-content:center;
 	justify-content:space-between;
 
 	.individual-post {
 	flex-basis:25%;
+	}
+}
+.type-product .product-title-price {
+	display:flex;
+	justify-content:space-between;
+	margin-left: 10px;
+    margin-right: 10px;
+
+ 	a{
+	text-decoration:none;
+	color:black;
+
+	}
+}
+.individual-product {
+
+	.entry-header {
+		border:1px solid grey;
 	}
 }
