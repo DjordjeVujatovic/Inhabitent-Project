@@ -6,7 +6,9 @@
  */
 
 get_header(); ?>
+
   <div class="home-hero-image"></div>
+<section class = "product-feed-container">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
@@ -18,20 +20,25 @@ get_header(); ?>
 
 
 			  <?php endwhile; // End of the loop. ?>
-        <section class = "product-feed container">
+
           <?php
                 $terms = get_terms('product_type');
                 foreach ($terms as $term) :
           ?>
+            
            <?php $url = get_term_link($term->slug, 'product_type'); ?>
+              <div class = "individual-sections">
               <img src="<?php echo get_template_directory_uri() ?>/images/<?php echo $term->slug?>.svg">
               <p><?php echo $term->description ?></p>
               <p><a href="<?php echo $url ?>"><?php echo $term->name ?></a></p>
+              </div>
             <?php endforeach;?>
-        </section>
+   
+
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+</section>
 
 <section class = "inhabitent-journal">
   <?php

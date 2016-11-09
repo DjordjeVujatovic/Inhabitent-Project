@@ -3,6 +3,31 @@
 	height:100vh;
 	background-size:cover, auto, cover;
 }
+.product-feed-container {
+  width:1120px;
+  margin:0 auto;
+
+    .site-main {
+      display:flex;
+      justify-content:space-between;
+    }
+    .individual-sections {
+      flex-basis:24%;
+      padding:20px;
+      border:1px solid gray;
+      text-align:center;
+
+
+}
+    img {
+      height:80px;
+      width:100px;
+      text-align:center;
+    }
+ }
+.inhabitent-journal {
+  display:none;
+}
 .adventures-container {
 	width:1120px;
 	margin:0 auto;

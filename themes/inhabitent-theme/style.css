@@ -732,6 +732,28 @@ object {
   height: 100vh;
   background-size: cover, auto, cover; }
 
+.product-feed-container {
+  width: 1120px;
+  margin: 0 auto; }
+  .product-feed-container .site-main {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+  .product-feed-container .individual-sections {
+    -ms-flex-preferred-size: 24%;
+        flex-basis: 24%;
+    padding: 20px;
+    border: 1px solid gray;
+    text-align: center; }
+  .product-feed-container img {
+    height: 80px;
+    width: 100px;
+    text-align: center; }
+
+.inhabitent-journal {
+  display: none; }
+
 .adventures-container {
   width: 1120px;
   margin: 0 auto; }
