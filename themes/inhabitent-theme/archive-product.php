@@ -7,8 +7,8 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+	<div id="primary" class="content-area-product">
+		<main id="main" class="site-main-product" role="main">
 
 		<?php if ( have_posts() ) : ?>
 
@@ -18,10 +18,10 @@ get_header(); ?>
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
-
+			<div class = "product-post">
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-			 <div>
+			 <div class = "individual-product">
 				<?php
 					get_template_part( 'template-parts/content' );
 				?>
@@ -36,6 +36,7 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 		<?php endif; ?>
+		</div>
 		</main><!-- #main -->
 		
 	</div><!-- #primary -->

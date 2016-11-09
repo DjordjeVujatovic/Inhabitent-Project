@@ -4,12 +4,11 @@
 	margin:0 auto;
 	padding-top: 48px;
 }
-article {
+.type-post {
 	width:70%;
 	width:640px;
 	padding-right: 2rem;
 	padding-top: 48px;
-}
 
 .entry-header {
 	position:relative;
@@ -31,6 +30,7 @@ article {
     	font-size: 2rem;
 		}
 	}
+}
 }
 .entry-meta {
     position: absolute;

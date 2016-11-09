@@ -1,0 +1,23 @@
+.content-area-product {
+	display:flex;
+	flex-direction:row;
+
+
+	.site-main-product {
+		width:1120px;
+	}
+	img {
+		height:200px;
+		width:250px;
+	}
+}
+.product-post {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	justify-content:space-between;
+
+	.individual-post {
+	flex-basis:25%;
+	}
+}
