@@ -677,13 +677,16 @@ object {
       align-items: center; }
   .about-hero h1 {
     color: white;
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    text-transform: uppercase; }
 
 .about-section {
-  margin-left: 15rem;
-  margin-right: 15rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem; }
+  width: 1120px;
+  margin: 10rem auto;
+  /*margin-left:15rem;
+	margin-right:15rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;*/ }
   .about-section h2 {
     text-transform: uppercase;
     font-size: 2rem; }
