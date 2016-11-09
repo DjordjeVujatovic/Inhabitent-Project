@@ -670,9 +670,14 @@ object {
 
 .about-hero {
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
   .about-hero h1 {
-    color: white; }
+    color: white;
+    font-size: 2.5rem; }
 
 .about-section {
   margin-left: 15rem;
