@@ -51,7 +51,7 @@ get_header(); ?>
    ?>
    <?php foreach ( $journal_posts as $post ) : setup_postdata( $post ); ?>
     <div class ="individual-journal-post">
-     <?php the_post_thumbnail(['300px,300px']); ?>
+     <?php the_post_thumbnail(); ?>
      <div class = "journal-post-container">
      <div class ="date-comment">
      <?php the_date();?>
