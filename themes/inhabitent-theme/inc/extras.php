@@ -22,13 +22,13 @@ function red_starter_body_classes( $classes ) {
 add_filter( 'body_class', 'red_starter_body_classes' );
 
 function my_login_logo() { ?>
-    <style type="text/css">
-        #login h1 a, .login h1 a {
-            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/inhabitent-logo-text-dark.svg);
-            padding-bottom: 30px;
-            background-size: 300px !important; width: 300px !important;background-position: bottom !important;
-        }
-    </style>
+<style type="text/css">
+  #login h1 a, .login h1 a {
+    background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/inhabitent-logo-text-dark.svg);
+    padding-bottom: 30px;
+    background-size: 300px !important; width: 300px !important;background-position: bottom !important;
+  }
+</style>
 <?php }
 add_action( 'login_enqueue_scripts', 'my_login_logo' );
 
@@ -37,18 +37,31 @@ add_action( 'login_enqueue_scripts', 'my_login_logo' );
 
 function my_styles_method() {
 
-                if(!is_page_template( 'about.php' )){
-                    return;
-                }
+  if(!is_page_template( 'about.php' )){
+    return;
+  }
 
        $url = CFS()->get( 'background_image' );//This is grabbing the background image vis Custom Field Suite Plugin
        $custom_css = "
-               .about-hero{
-                       background: linear-gradient( to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 100% ), url({$url}) no-repeat center bottom;
-                       height:100vh;
-                       background-size: cover, cover;
-               }";
+       .about-hero{
+         background: linear-gradient( to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 100% ), url({$url}) no-repeat center bottom;
+         height:100vh;
+         background-size: cover, cover;
+       }";
        wp_add_inline_style( 'red-starter-style', $custom_css );
+     }
+     add_action( 'wp_enqueue_scripts', 'my_styles_method' );
+
+/**
+* Set product archive to 16
+*/
+
+function get_product_posts($query) {
+  if( is_post_type_archive( 'product' ) && !is_admin() && $query->is_main_query() ) {
+    $query->set ('posts_per_page', '16');
+    $query->set ('orderby', 'title');
+    $query->set ('order', 'ASC');
+  }
 }
-add_action( 'wp_enqueue_scripts', 'my_styles_method' );
+add_action( 'pre_get_posts', 'get_product_posts');
 
