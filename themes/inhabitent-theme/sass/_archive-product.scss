@@ -7,12 +7,17 @@
 	.page-header {
 	   text-align: center;
 	   flex-basis: 100%;
+
+	   .page-title {
+	   	text-transform: uppercase;
+	   }
 	}
 	 .shop-page-product-types {
 	   	display:flex;
 	   	justify-content: space-between;
-	   	width: 500px;
-	   	margin-bottom: 2rem;
+	    width: 400px;
+   	 	margin-bottom: 2rem;
+    	font-size: 30px;
 
 
 	   	a {

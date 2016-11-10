@@ -979,13 +979,16 @@ object {
     text-align: center;
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%; }
+    .product-nav .page-header .page-title {
+      text-transform: uppercase; }
   .product-nav .shop-page-product-types {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
         justify-content: space-between;
-    width: 500px;
-    margin-bottom: 2rem; }
+    width: 400px;
+    margin-bottom: 2rem;
+    font-size: 30px; }
     .product-nav .shop-page-product-types a {
       text-decoration: none;
       color: #248a83;
