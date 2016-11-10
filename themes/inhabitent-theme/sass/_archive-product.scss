@@ -58,6 +58,10 @@
 .type-product .product-title-price {
 	display:flex;
 	justify-content:space-between;
+	border: 1px solid #e1e1e1;
+    border-top-width: 6px;
+    padding: 0px 10px;
+    height: 60px;
 
 	a{
 		text-decoration:none;
@@ -65,11 +69,12 @@
 
 	}
 }
-.product-title-price {
+
+/*.type-product .product-title-price {
 		border: 1px solid #e1e1e1;
     	border-top-width: 6px;
     	padding: 0px 10px;
     	height: 60px;
 
-		}
+		}*/
 

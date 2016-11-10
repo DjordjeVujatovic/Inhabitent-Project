@@ -782,22 +782,22 @@ object {
       width: 365.5px;
       padding: 1.5rem;
       border-top-width: 4px; }
-    .inhabitent-journal .individual-journal-post h3 {
-      color: #248a83;
-      text-transform: uppercase;
-      font-size: 1.4rem; }
-    .inhabitent-journal .individual-journal-post a {
-      border: 1px solid #e1e1e1;
-      padding: .75rem 2.5rem;
-      text-decoration: none;
-      color: black; }
-      .inhabitent-journal .individual-journal-post a:hover {
-        background-color: #248a83;
-        color: white; }
-  .inhabitent-journal img {
-    width: 365.5px;
-    height: 250px;
-    display: block; }
+      .inhabitent-journal .individual-journal-post .journal-post-container h3 {
+        color: #248a83;
+        text-transform: uppercase;
+        font-size: 1.4rem; }
+      .inhabitent-journal .individual-journal-post .journal-post-container a {
+        border: 1px solid #e1e1e1;
+        padding: .75rem 2.5rem;
+        text-decoration: none;
+        color: black; }
+        .inhabitent-journal .individual-journal-post .journal-post-container a:hover {
+          background-color: #248a83;
+          color: white; }
+    .inhabitent-journal .individual-journal-post img {
+      width: 365.5px;
+      height: 250px;
+      display: block; }
 
 .adventures-container {
   width: 1120px;
@@ -1024,13 +1024,19 @@ object {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
-      justify-content: space-between; }
-  .type-product .product-title-price a {
-    text-decoration: none;
-    color: black; }
-
-.product-title-price {
+      justify-content: space-between;
   border: 1px solid #e1e1e1;
   border-top-width: 6px;
   padding: 0px 10px;
   height: 60px; }
+  .type-product .product-title-price a {
+    text-decoration: none;
+    color: black; }
+
+/*.type-product .product-title-price {
+		border: 1px solid #e1e1e1;
+    	border-top-width: 6px;
+    	padding: 0px 10px;
+    	height: 60px;
+
+		}*/
