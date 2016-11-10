@@ -966,6 +966,33 @@ object {
   .contact-info-sidebar a i {
     color: black; }
 
+.product-nav {
+  -ms-flex-pack: center;
+      justify-content: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-bottom: 1px dashed gray;
+  margin-bottom: 2rem; }
+  .product-nav .page-header {
+    text-align: center;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%; }
+  .product-nav .shop-page-product-types {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    width: 500px;
+    margin-bottom: 2rem; }
+    .product-nav .shop-page-product-types a {
+      text-decoration: none;
+      color: #248a83;
+      text-transform: uppercase; }
+      .product-nav .shop-page-product-types a:hover {
+        color: black; }
+
 .content-area-product {
   display: -ms-flexbox;
   display: flex;

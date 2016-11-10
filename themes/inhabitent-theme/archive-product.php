@@ -11,13 +11,15 @@ get_header(); ?>
 	<main id="main" class="site-main-product" role="main">
 
 		<?php if ( have_posts() ) : ?>
-
+		  <section class ="product-nav">
 			<header class="page-header">
 				<?php
+
 				the_archive_title( '<h1 class="page-title">', '</h1>' );
 				the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
+
 
   <!--Calling Product Types-->
   <div class = "shop-page-product-types">
@@ -29,7 +31,7 @@ get_header(); ?>
 	  <p><a href="<?php echo $url ?>"><?php echo $term->name ?></a></p>
 	<?php endforeach;?>
    </div>
-
+</section>
 		<div class = "product-post">
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
