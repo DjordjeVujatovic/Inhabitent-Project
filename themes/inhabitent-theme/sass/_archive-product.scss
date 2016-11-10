@@ -42,12 +42,14 @@
 	img {
 		height:200px;
 		width:250px;
+		display:block;
 	}
 }
 .product-post {
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:space-between;
+	margin: 5rem 0;
 
 	.individual-post {
 		flex-basis:25%;
@@ -56,8 +58,6 @@
 .type-product .product-title-price {
 	display:flex;
 	justify-content:space-between;
-	margin-left: 10px;
-	margin-right: 10px;
 
 	a{
 		text-decoration:none;
@@ -65,9 +65,11 @@
 
 	}
 }
-.individual-product {
+.product-title-price {
+		border: 1px solid #e1e1e1;
+    	border-top-width: 6px;
+    	padding: 0px 10px;
+    	height: 60px;
 
-	.entry-header {
-		border:1px solid grey;
-	}
-}
+		}
+

@@ -748,10 +748,10 @@ object {
     -ms-flex-preferred-size: 24%;
         flex-basis: 24%;
     padding: 20px;
-    border: 1px solid gray;
+    border: 1px solid #e1e1e1;
     text-align: center; }
     .product-feed-container .individual-sections a {
-      border: 1px solid gray;
+      border: 1px solid #e1e1e1;
       padding: 1rem 2.8rem;
       text-decoration: none;
       color: white;
@@ -778,7 +778,7 @@ object {
     max-width: 400px;
     padding-left: 11px; }
     .inhabitent-journal .individual-journal-post .journal-post-container {
-      border: 1px solid gray;
+      border: 1px solid #e1e1e1;
       width: 365.5px;
       padding: 1.5rem;
       border-top-width: 4px; }
@@ -787,7 +787,7 @@ object {
       text-transform: uppercase;
       font-size: 1.4rem; }
     .inhabitent-journal .individual-journal-post a {
-      border: 1px solid gray;
+      border: 1px solid #e1e1e1;
       padding: .75rem 2.5rem;
       text-decoration: none;
       color: black; }
@@ -1005,7 +1005,8 @@ object {
     width: 1120px; }
   .content-area-product img {
     height: 200px;
-    width: 250px; }
+    width: 250px;
+    display: block; }
 
 .product-post {
   display: -ms-flexbox;
@@ -1013,7 +1014,8 @@ object {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -ms-flex-pack: justify;
-      justify-content: space-between; }
+      justify-content: space-between;
+  margin: 5rem 0; }
   .product-post .individual-post {
     -ms-flex-preferred-size: 25%;
         flex-basis: 25%; }
@@ -1022,12 +1024,13 @@ object {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
-      justify-content: space-between;
-  margin-left: 10px;
-  margin-right: 10px; }
+      justify-content: space-between; }
   .type-product .product-title-price a {
     text-decoration: none;
     color: black; }
 
-.individual-product .entry-header {
-  border: 1px solid grey; }
+.product-title-price {
+  border: 1px solid #e1e1e1;
+  border-top-width: 6px;
+  padding: 0px 10px;
+  height: 60px; }
