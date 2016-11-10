@@ -7,6 +7,12 @@
   width:1120px;
   margin:0 auto;
 
+  h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+  }
+
   .site-main {
     display:flex;
     justify-content:space-between;
@@ -35,8 +41,53 @@
     text-align:center;
   }
 }
+.inhabitent-journal-title {
+  text-align:center;
+  text-transform:uppercase;
+  margin:4rem;
+}
 .inhabitent-journal {
-  display:none;
+    width: 1120px;
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+
+    .individual-journal-post {
+      max-width: 400px;
+      padding-left:11px;
+
+      .journal-post-container {
+       border: 1px solid gray;
+       width: 365.5px;
+       padding:1.5rem;
+       border-top-width: 4px;
+      }
+
+      h3 {
+        color: #248a83;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+      }
+      a {
+        border: 1px solid gray;
+        padding: .75rem 2.5rem;
+        text-decoration:none;
+        color:black;
+
+        &:hover {
+        background-color: #248a83;
+        color:white;
+        }
+
+      }
+    }
+
+    img{
+      width: 365.5px;
+      height: 250px;
+      display:block;
+    }
 }
 .adventures-container {
 	width:1120px;

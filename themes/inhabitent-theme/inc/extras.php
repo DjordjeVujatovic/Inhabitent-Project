@@ -65,3 +65,16 @@ function get_product_posts($query) {
 }
 add_action( 'pre_get_posts', 'get_product_posts');
 
+/*
+Custom Archive Title
+*/
+
+function inhabitent_product_title( $title) {
+  if(is_post_type_archive('product')) {
+      $title = 'Shop Stuff';
+    }
+    return $title;
+  }
+  add_filter('get_the_archive_title', 'inhabitent_product_title');
+
+

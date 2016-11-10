@@ -38,8 +38,10 @@ get_header(); ?>
 </main><!-- #main -->
 </div><!-- #primary -->
 </section>
-
-<section class = "inhabitent-journal">
+<secttion class = "inhabitent-journal-title">
+<h2>Inhabitent Journal</h2>
+</secttion>
+<div class = "inhabitent-journal">
   <?php
   $args = array( 
     'post_type' => 'post', 
@@ -48,12 +50,19 @@ get_header(); ?>
    $journal_posts = get_posts( $args ); // returns an array of posts
    ?>
    <?php foreach ( $journal_posts as $post ) : setup_postdata( $post ); ?>
-     <?php the_post_thumbnail(['400px,400px']); ?>
-     <?php  the_date();?>
+    <div class ="individual-journal-post">
+     <?php the_post_thumbnail(['300px,300px']); ?>
+     <div class = "journal-post-container">
+     <div class ="date-comment">
+     <?php the_date();?>
      <?php comments_number();?>
-     <?php the_title();?>
+     </div>
+     <h3><?php the_title();?></h3>
+     <a class ="read" href="<?php the_permalink();?>">Read Entry</a>
+    </div>
+    </div>
    <?php endforeach; wp_reset_postdata(); ?>
- </section>
+ </div>
  <section class="adventures-container">
    <h2 class = "latest-adventures">Latest Adventures</h2>
    <div class="adventure-section">
@@ -61,6 +70,7 @@ get_header(); ?>
   	<!--<h3 class = "entry-title"><a href= "">Getting Back to Nature in a Canoe</a></h3>
   	<a class = "read-more-button" href = "">Read More</a>-->
   </div>
+
   <div class="right-mix">
     <div class="top-right">
       <div class="right-box-top">

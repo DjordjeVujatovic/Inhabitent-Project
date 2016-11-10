@@ -735,6 +735,10 @@ object {
 .product-feed-container {
   width: 1120px;
   margin: 0 auto; }
+  .product-feed-container h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px; }
   .product-feed-container .site-main {
     display: -ms-flexbox;
     display: flex;
@@ -758,8 +762,42 @@ object {
     width: 100px;
     text-align: center; }
 
+.inhabitent-journal-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 4rem; }
+
 .inhabitent-journal {
-  display: none; }
+  width: 1120px;
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .inhabitent-journal .individual-journal-post {
+    max-width: 400px;
+    padding-left: 11px; }
+    .inhabitent-journal .individual-journal-post .journal-post-container {
+      border: 1px solid gray;
+      width: 365.5px;
+      padding: 1.5rem;
+      border-top-width: 4px; }
+    .inhabitent-journal .individual-journal-post h3 {
+      color: #248a83;
+      text-transform: uppercase;
+      font-size: 1.4rem; }
+    .inhabitent-journal .individual-journal-post a {
+      border: 1px solid gray;
+      padding: .75rem 2.5rem;
+      text-decoration: none;
+      color: black; }
+      .inhabitent-journal .individual-journal-post a:hover {
+        background-color: #248a83;
+        color: white; }
+  .inhabitent-journal img {
+    width: 365.5px;
+    height: 250px;
+    display: block; }
 
 .adventures-container {
   width: 1120px;
