@@ -18,27 +18,39 @@ get_header(); ?>
 				the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
-			<div class = "product-post">
-				<?php /* Start the Loop */ ?>
-				<?php while ( have_posts() ) : the_post(); ?>
-					<div class = "individual-product">
-						<?php
-						get_template_part( 'template-parts/content' );
-						?>
 
-						
-					</div>
-				<?php endwhile; ?>
+  <!--Calling Product Types-->
+  <div class = "shop-page-product-types">
+	<?php
+	  $terms = get_terms('product_type');
+	   foreach ($terms as $term) :
+	?>
+    <?php $url = get_term_link($term->slug, 'product_type'); ?>
+	  <p><a href="<?php echo $url ?>"><?php echo $term->name ?></a></p>
+	<?php endforeach;?>
+   </div>
 
-				<?php the_posts_navigation(); ?>
+		<div class = "product-post">
+			<?php /* Start the Loop */ ?>
+			<?php while ( have_posts() ) : the_post(); ?>
+				<div class = "individual-product">
+					<?php
+					get_template_part( 'template-parts/content' );
+					?>
 
-			<?php else : ?>
 
-				<?php get_template_part( 'template-parts/content', 'none' ); ?>
+				</div>
+			<?php endwhile; ?>
 
-			<?php endif; ?>
-		</div>
-	</main><!-- #main -->
-	
+			<?php the_posts_navigation(); ?>
+
+		<?php else : ?>
+
+			<?php get_template_part( 'template-parts/content', 'none' ); ?>
+
+		<?php endif; ?>
+	</div>
+</main><!-- #main -->
+
 </div><!-- #primary -->
 <?php get_footer(); ?>
