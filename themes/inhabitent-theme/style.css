@@ -727,6 +727,13 @@ object {
 .copyright-tag {
   margin: 0 auto; }
 
+body h2 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 2.5rem; }
+
 .home-hero-image {
   background: linear-gradient(rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.25)), url(../../images/inhabitent-logo-full.svg) no-repeat center center, url(../../images/home-hero.jpg);
   height: 100vh;
@@ -735,10 +742,6 @@ object {
 .product-feed-container {
   width: 1120px;
   margin: 0 auto; }
-  .product-feed-container h2 {
-    text-align: center;
-    text-transform: uppercase;
-    padding-top: 20px; }
   .product-feed-container .site-main {
     display: -ms-flexbox;
     display: flex;
@@ -749,7 +752,10 @@ object {
         flex-basis: 24%;
     padding: 20px;
     border: 1px solid #e1e1e1;
-    text-align: center; }
+    text-align: center;
+    border-top-width: 10px; }
+    .product-feed-container .individual-sections:hover {
+      border-color: #d99054; }
     .product-feed-container .individual-sections a {
       border: 1px solid #e1e1e1;
       padding: 1rem 2.8rem;
@@ -757,6 +763,8 @@ object {
       color: white;
       text-transform: uppercase;
       background: #248a83; }
+      .product-feed-container .individual-sections a:hover {
+        background-color: darkslategray; }
   .product-feed-container img {
     height: 80px;
     width: 100px;

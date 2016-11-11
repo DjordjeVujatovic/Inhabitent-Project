@@ -52,7 +52,7 @@ function my_styles_method() {
      }
      add_action( 'wp_enqueue_scripts', 'my_styles_method' );
 
-/**
+/*
 * Set product archive to 16
 */
 

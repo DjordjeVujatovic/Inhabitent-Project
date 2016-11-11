@@ -1,3 +1,10 @@
+body h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom:20px;
+    font-size: 2.5rem;
+}
 .home-hero-image{
 	background:  linear-gradient(rgba(0,0,0,0.25) 0, rgba(0,0,0,0.25)), url(../../images/inhabitent-logo-full.svg) no-repeat center center, url(../../images/home-hero.jpg);
 	height:100vh;
@@ -6,12 +13,6 @@
 .product-feed-container {
   width:1120px;
   margin:0 auto;
-
-  h2{
-    text-align: center;
-    text-transform: uppercase;
-    padding-top: 20px;
-  }
 
   .site-main {
     display:flex;
@@ -22,6 +23,11 @@
     padding:20px;
     border:1px solid #e1e1e1;
     text-align:center;
+    border-top-width:10px;
+
+    &:hover {
+      border-color:#d99054;
+    }
 
     a{
       border: 1px solid #e1e1e1;
@@ -30,6 +36,10 @@
       color: white;
       text-transform:uppercase;
       background:#248a83;
+
+      &:hover {
+        background-color: darkslategray; 
+      }
 
     }
 

@@ -6,7 +6,7 @@
  */
 
 get_header(); ?>
-
+<body>
 <div class="home-hero-image"></div>
 <section class = "product-feed-container">
   <h2>shop stuff</h2>
@@ -89,5 +89,6 @@ get_header(); ?>
   </div>
 </div>
 </section>
+</body>
 
 <?php get_footer(); ?>
