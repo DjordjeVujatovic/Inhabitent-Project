@@ -1,9 +1,11 @@
-body h2 {
+body {
+  .front-page-heading{
     text-align: center;
     text-transform: uppercase;
     padding-top: 20px;
     padding-bottom:20px;
     font-size: 2.5rem;
+  }
 }
 .home-hero-image{
 	background:  linear-gradient(rgba(0,0,0,0.25) 0, rgba(0,0,0,0.25)), url(../../images/inhabitent-logo-full.svg) no-repeat center center, url(../../images/home-hero.jpg);
@@ -80,7 +82,7 @@ body h2 {
         font-size: 1.4rem;
       }
       a {
-        border: 1px solid #e1e1e1;
+        border: 1px solid black;
         padding: .75rem 2.5rem;
         text-decoration:none;
         color:black;
@@ -88,6 +90,7 @@ body h2 {
         &:hover {
         background-color: #248a83;
         color:white;
+        border-color: #248a83; 
         }
 
       }

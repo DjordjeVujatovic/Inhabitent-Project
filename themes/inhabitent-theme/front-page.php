@@ -6,10 +6,10 @@
  */
 
 get_header(); ?>
-<body>
+<body class = "front-page-container">
 <div class="home-hero-image"></div>
 <section class = "product-feed-container">
-  <h2>shop stuff</h2>
+  <h2 class = "front-page-heading">shop stuff</h2>
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
 
@@ -39,7 +39,7 @@ get_header(); ?>
 </div><!-- #primary -->
 </section>
 <secttion class = "inhabitent-journal-title">
-<h2>Inhabitent Journal</h2>
+<h2 class = "front-page-heading">Inhabitent Journal</h2>
 </secttion>
 <div class = "inhabitent-journal">
   <?php
@@ -64,7 +64,7 @@ get_header(); ?>
    <?php endforeach; wp_reset_postdata(); ?>
  </div>
  <section class="adventures-container">
-   <h2 class = "latest-adventures">Latest Adventures</h2>
+   <h2 class = "front-page-heading">Latest Adventures</h2>
    <div class="adventure-section">
     <div class="left-box">
   	<!--<h3 class = "entry-title"><a href= "">Getting Back to Nature in a Canoe</a></h3>

@@ -457,7 +457,8 @@ a {
         top: 0; }
       .main-navigation ul ul li:hover > ul,
       .main-navigation ul ul li.focus > ul {
-        left: 100%; }
+        left: 100%;
+        color: black; }
       .main-navigation ul ul a {
         width: 200px; }
     .main-navigation ul li:hover > ul,
@@ -727,7 +728,7 @@ object {
 .copyright-tag {
   margin: 0 auto; }
 
-body h2 {
+body .front-page-heading {
   text-align: center;
   text-transform: uppercase;
   padding-top: 20px;
@@ -795,13 +796,14 @@ body h2 {
         text-transform: uppercase;
         font-size: 1.4rem; }
       .inhabitent-journal .individual-journal-post .journal-post-container a {
-        border: 1px solid #e1e1e1;
+        border: 1px solid black;
         padding: .75rem 2.5rem;
         text-decoration: none;
         color: black; }
         .inhabitent-journal .individual-journal-post .journal-post-container a:hover {
           background-color: #248a83;
-          color: white; }
+          color: white;
+          border-color: #248a83; }
     .inhabitent-journal .individual-journal-post img {
       width: 365.5px;
       height: 250px;
@@ -917,11 +919,11 @@ body h2 {
   border: 1px solid black;
   text-decoration: none;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: .8rem 1.2rem;
   margin-top: 4%;
   text-transform: uppercase; }
-  .read-more-article a {
+  .read-more-article:visited {
     color: black; }
   .read-more-article:hover {
     background-color: #248a83;
