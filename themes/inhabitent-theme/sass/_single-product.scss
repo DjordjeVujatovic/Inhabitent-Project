@@ -1,0 +1,18 @@
+.single-product-container {
+	display: flex;
+
+	.single-product-thumb {
+	margin-right: 3rem;
+    margin: 1.5rem;
+    flex-basis: 55%;
+    }
+    .single-product-content {
+    flex-basis: 44%;
+
+    	.single-product-title {
+    	text-transform: uppercase;
+    	font-size:2rem;
+    	color:#d99054;
+    	}
+    }
+}

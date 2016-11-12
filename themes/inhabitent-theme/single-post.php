@@ -20,7 +20,7 @@ get_header(); ?>
 					<a class = "tweet-button" href ="#"><i class="fa fa-twitter" aria-hidden="true"></i>
 						Tweet</a>
 						<a class = "pin-button" href ="#"><i class="fa fa-pinterest" aria-hidden="true"></i> Pin</a>
-					</div>
+			</div>
 
 
 					<?php the_post_navigation(); ?>

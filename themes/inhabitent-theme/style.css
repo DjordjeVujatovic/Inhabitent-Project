@@ -1104,6 +1104,22 @@ body .front-page-heading {
     text-decoration: none;
     color: black; }
 
+.single-product-container {
+  display: -ms-flexbox;
+  display: flex; }
+  .single-product-container .single-product-thumb {
+    margin-right: 3rem;
+    margin: 1.5rem;
+    -ms-flex-preferred-size: 55%;
+        flex-basis: 55%; }
+  .single-product-container .single-product-content {
+    -ms-flex-preferred-size: 44%;
+        flex-basis: 44%; }
+    .single-product-container .single-product-content .single-product-title {
+      text-transform: uppercase;
+      font-size: 2rem;
+      color: #d99054; }
+
 .product-type-archive-page .product-type-main {
   display: -ms-flexbox;
   display: flex;
