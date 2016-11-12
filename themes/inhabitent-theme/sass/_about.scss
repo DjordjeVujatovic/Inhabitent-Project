@@ -3,23 +3,32 @@
 	justify-content: center;
 	align-items:center;
 
-	h1 {
+	h2 {
 		color:white;
+		font-family: "novecento_demibold";
 		font-size:2.5rem;
 		text-transform:uppercase;
 
 
 	}
 }
-.about-section {
-	width:1120px;
-	margin:10rem auto;
+.about-container {
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
 
 	h2 {
 		text-transform:uppercase;
+		font-family: "novecento_demibold";
 		font-size:2rem;
 	}
 	p {
-		font-size:18px;
+		font-family: "merriweatherlight";
+		font-size:1rem;
 	}
+	.about-section {
+	margin: 3rem auto;
+    max-width: 800px;
+	}
+
 }

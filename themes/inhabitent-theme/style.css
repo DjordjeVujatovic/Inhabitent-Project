@@ -719,19 +719,26 @@ object {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center; }
-  .about-hero h1 {
+  .about-hero h2 {
     color: white;
+    font-family: "novecento_demibold";
     font-size: 2.5rem;
     text-transform: uppercase; }
 
-.about-section {
+.about-container {
   width: 1120px;
-  margin: 10rem auto; }
-  .about-section h2 {
+  margin-left: auto;
+  margin-right: auto; }
+  .about-container h2 {
     text-transform: uppercase;
+    font-family: "novecento_demibold";
     font-size: 2rem; }
-  .about-section p {
-    font-size: 18px; }
+  .about-container p {
+    font-family: "merriweatherlight";
+    font-size: 1rem; }
+  .about-container .about-section {
+    margin: 3rem auto;
+    max-width: 800px; }
 
 /*--------------------------------------------------------------
 # Page Templates
@@ -1009,10 +1016,10 @@ body .front-page-heading {
   text-transform: uppercase; }
   .pin-button:visited, .like-button:visited, .tweet-button:visited {
     color: black; }
-    .pin-button:visited:hover, .like-button:visited:hover, .tweet-button:visited:hover {
-      background-color: #248a83;
-      border: 1px solid #248a83;
-      color: white; }
+  .pin-button:hover, .like-button:hover, .tweet-button:hover {
+    background-color: #248a83;
+    border: 1px solid #248a83;
+    color: white; }
 
 .nav-previous, .nav-next {
   display: none; }

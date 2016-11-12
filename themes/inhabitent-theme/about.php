@@ -14,13 +14,13 @@
 <div id="primary-about" class="content-area-about">
 	<main id="main" class="site-main" role="main">
 		<section class="about-hero">
-			<h1><?php single_post_title() ?><h1>
+			<h2><?php single_post_title() ?></h2>
 			</section>
-			<div class = "about-section">
-
+			<div class = "about-container">
+			  <div class = "about-section">
 				<?php echo CFS()->get( 'our_story' ); ?>
 				<?php echo CFS()->get( 'our_team' ); ?>
-
+ 			 </div>
 			</div>
 
 		</main><!-- #main -->
