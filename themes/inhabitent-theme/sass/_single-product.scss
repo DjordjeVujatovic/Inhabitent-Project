@@ -1,18 +1,30 @@
 .single-product-container {
 	display: flex;
+	margin-top: 2rem;
+    margin-bottom: 2rem;
 
-	.single-product-thumb {
+  .single-product-thumb {
 	margin-right: 3rem;
     margin: 1.5rem;
     flex-basis: 55%;
     }
-    .single-product-content {
+   .single-product-content {
     flex-basis: 44%;
+    font-family: "merriweatherlight";
+    font-size: 1rem;
 
-    	.single-product-title {
+    .single-product-price {
+    font-family: "novecento_normal";
+    font-size: 1.8rem;
+    margin:0;
+    }
+
+    .single-product-title {
     	text-transform: uppercase;
+    	font-family: "novecento_demibold";
     	font-size:2rem;
     	color:#d99054;
+
     	}
     }
 }

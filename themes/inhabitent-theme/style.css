@@ -1002,15 +1002,17 @@ body .front-page-heading {
 .pin-button, .like-button, .tweet-button {
   border: 1px solid black;
   text-decoration: none;
-  color: black;
-  font-size: 1.5rem;
+  font-family: "novecento_normal";
+  font-size: .9rem;
   padding: .8rem 1.2rem;
   margin-top: 4%;
   text-transform: uppercase; }
-  .pin-button:hover, .like-button:hover, .tweet-button:hover {
-    background-color: #248a83;
-    border: 1px solid #248a83;
-    color: white; }
+  .pin-button:visited, .like-button:visited, .tweet-button:visited {
+    color: black; }
+    .pin-button:visited:hover, .like-button:visited:hover, .tweet-button:visited:hover {
+      background-color: #248a83;
+      border: 1px solid #248a83;
+      color: white; }
 
 .nav-previous, .nav-next {
   display: none; }
@@ -1106,7 +1108,9 @@ body .front-page-heading {
 
 .single-product-container {
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
   .single-product-container .single-product-thumb {
     margin-right: 3rem;
     margin: 1.5rem;
@@ -1114,9 +1118,16 @@ body .front-page-heading {
         flex-basis: 55%; }
   .single-product-container .single-product-content {
     -ms-flex-preferred-size: 44%;
-        flex-basis: 44%; }
+        flex-basis: 44%;
+    font-family: "merriweatherlight";
+    font-size: 1rem; }
+    .single-product-container .single-product-content .single-product-price {
+      font-family: "novecento_normal";
+      font-size: 1.8rem;
+      margin: 0; }
     .single-product-container .single-product-content .single-product-title {
       text-transform: uppercase;
+      font-family: "novecento_demibold";
       font-size: 2rem;
       color: #d99054; }
 

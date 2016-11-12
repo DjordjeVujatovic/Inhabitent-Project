@@ -8,19 +8,25 @@
 .social-media-buttons {
 	display:flex;
 	flex-direction: row;
+
 }
 .pin-button, .like-button, .tweet-button {
  border: 1px solid black;
  text-decoration: none;
- color: black;
- font-size: 1.5rem;
+ font-family: "novecento_normal";
+ font-size: .9rem;
  padding: .8rem 1.2rem;
  margin-top: 4%;
  text-transform: uppercase;
+
+ &:visited {
+ 	color:black;
+
  &:hover {
    background-color: #248a83;
    border: 1px solid #248a83;
    color: white;
+  }
  }
 }
 .nav-previous, .nav-next {

@@ -19,8 +19,8 @@ get_header(); ?>
 			<p class = "single-product-price"><?php echo CFS()->get( 'product_price' ); ?></p>
 			<p class = "single-product-description"><?php the_content();?></p>
 		<div class = "social-media-button">
-		    <a class = "like-button" href ="#"><i class="fa fa-facebook" aria-hidden="true"></i>Like</a>
-			<a class = "tweet-button" href ="#"><i class="fa fa-twitter" aria-hidden="true"></i>Tweet</a>
+		    <a class = "like-button" href ="#"><i class="fa fa-facebook" aria-hidden="true"></i> Like</a>
+			<a class = "tweet-button" href ="#"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</a>
 		    <a class = "pin-button" href ="#"><i class="fa fa-pinterest" aria-hidden="true"></i> Pin</a>
 		</div>
 		</div>
