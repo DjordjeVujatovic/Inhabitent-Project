@@ -22,9 +22,9 @@
 				   </div>
 				   <div class= "business-hours">
 				   	<h4>Business Hours</h4>
-				   	<p>Monday-Friday: 9am - 5pm</p>
-				   	<p>Saturday: 10am - 2pm</p>
-				   	<p>Sunday: Closed</p>
+				   	<p class = "day-of-week">Monday-Friday: <span class = "hours">9am - 5pm</span></p>
+				   	<p class = "day-of-week">Saturday: <span class = "hours">10am - 2pm</span></p>
+				   	<p class = "day-of-week">Sunday: <span class = "hours">Closed</span></p>
 				   </div>
 				   <div class = "footer-logo">
 				    <img src="<?php echo get_template_directory_uri(); ?>/images/inhabitent-logo-text.svg">  

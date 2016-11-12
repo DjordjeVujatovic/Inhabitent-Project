@@ -77,4 +77,8 @@ function inhabitent_product_title( $title) {
   }
   add_filter('get_the_archive_title', 'inhabitent_product_title');
 
+/*product-type-name*/
+
+
+
 
