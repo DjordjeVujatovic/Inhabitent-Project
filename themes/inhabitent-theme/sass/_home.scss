@@ -14,6 +14,17 @@
    position:relative;
    width:100%;
 
+    .entry-meta {
+      position: absolute;
+      bottom: 7px;
+      right:0;
+      color: #fff;
+      width: 75%;
+      background: #248a83;
+      text-align: center;
+      text-transform:uppercase;
+    }
+
    .entry-title {
     position:absolute;
     top:0px;
@@ -31,18 +42,6 @@
     }
   }
 }
-}
-.entry-meta {
-  position: absolute;
-  bottom: 7px;
-  right:0;
-  color: #fff;
-  width: 75%;
-  background: #248a83;
-  text-align: center;
-  text-transform:uppercase;
-
-
 }
 .read-more-article {
  border: 1px solid black;

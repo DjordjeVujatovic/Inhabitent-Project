@@ -79,6 +79,17 @@ function inhabitent_product_title( $title) {
 
 /*product-type-name*/
 
-
+function inhabitent_archive_title( $title ) {
+    if ( is_category() ) {
+        $title = single_cat_title( '', false );
+    } elseif ( is_tag() ) {
+        $title = single_tag_title( '', false );
+    } elseif ( is_tax() ) {
+        $title = single_term_title( '', false );
+    }
+    
+    return $title;
+}
+add_filter( 'get_the_archive_title', 'inhabitent_archive_title' );
 
 
