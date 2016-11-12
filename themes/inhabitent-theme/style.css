@@ -1098,7 +1098,8 @@ body .front-page-heading {
   border: 1px solid #e1e1e1;
   border-top-width: 6px;
   padding: 0px 10px;
-  height: 60px; }
+  height: 60px;
+  font-family: "merriweatherlight"; }
   .type-product .product-title-price a {
     text-decoration: none;
     color: black; }
