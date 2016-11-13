@@ -827,12 +827,12 @@ body .front-page-heading {
     .product-feed-container .individual-sections:hover {
       border-color: #d99054; }
     .product-feed-container .individual-sections a {
-      border: 1px solid #e1e1e1;
       padding: 1rem 2.8rem;
       text-decoration: none;
       color: white;
       text-transform: uppercase;
-      background: #248a83; }
+      background: #248a83;
+      font-family: "novecento_normal"; }
       .product-feed-container .individual-sections a:hover {
         background-color: darkslategray; }
   .product-feed-container img {
@@ -859,17 +859,21 @@ body .front-page-heading {
       border: 1px solid #e1e1e1;
       width: 365.5px;
       padding: 1.5rem;
-      border-top-width: 4px; }
+      border-top-width: 4px;
+      font-family: "merriweatherlight";
+      font-size: .75rem; }
       .inhabitent-journal .individual-journal-post .journal-post-container h3 {
         color: #248a83;
-        text-transform: uppercase;
         font-size: 1.4rem;
-        font-family: "novecento_demibold"; }
+        font-family: "novecento_demibold";
+        margin-top: 5px; }
       .inhabitent-journal .individual-journal-post .journal-post-container a {
         border: 1px solid black;
         padding: .75rem 2.5rem;
         text-decoration: none;
-        color: black; }
+        color: black;
+        text-transform: uppercase;
+        font-family: "novecento_normal"; }
         .inhabitent-journal .individual-journal-post .journal-post-container a:hover {
           background-color: #248a83;
           color: white;

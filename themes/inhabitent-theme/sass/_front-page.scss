@@ -39,12 +39,12 @@ body {
     }
 
     a{
-      border: 1px solid #e1e1e1;
       padding: 1rem 2.8rem;
       text-decoration:none;
       color: white;
       text-transform:uppercase;
       background:#248a83;
+      font-family: "novecento_normal";
 
       &:hover {
         background-color: darkslategray; 
@@ -64,6 +64,7 @@ body {
   text-align:center;
   text-transform:uppercase;
   margin:4rem;
+
 }
 .inhabitent-journal {
     width: 1120px;
@@ -81,19 +82,23 @@ body {
        width: 365.5px;
        padding:1.5rem;
        border-top-width: 4px;
+       font-family: "merriweatherlight";
+       font-size:.75rem;
       
 
       h3 {
         color: #248a83;
-        text-transform: uppercase;
         font-size: 1.4rem;
         font-family: "novecento_demibold";
+        margin-top: 5px;
       }
       a {
         border: 1px solid black;
         padding: .75rem 2.5rem;
         text-decoration:none;
         color:black;
+        text-transform: uppercase;
+        font-family: "novecento_normal";
 
         &:hover {
         background-color: #248a83;
