@@ -610,8 +610,6 @@ a {
 .widget {
   margin: 0 0 1.5em;
   /* Make sure select elements fit in widgets. */ }
-  .widget select {
-    max-width: 100%; }
 
 /* Search widget. */
 .widget_search .search-submit {
@@ -725,17 +723,18 @@ object {
   .about-hero h2 {
     color: white;
     font-family: "novecento_demibold";
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-transform: uppercase; }
 
 .about-container {
   width: 1120px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-bottom: 5rem; }
   .about-container h2 {
     text-transform: uppercase;
     font-family: "novecento_demibold";
-    font-size: 2rem; }
+    font-size: 2.5rem; }
   .about-container p {
     font-family: "merriweatherlight";
     font-size: 1rem; }
@@ -1140,19 +1139,32 @@ body .front-page-heading {
   border-left: 1px solid #e1e1e1;
   padding-left: 2rem;
   padding-top: 48px; }
+  .widget-area .widget-title {
+    text-transform: uppercase; }
   .widget-area ul {
     list-style-type: none;
     padding: 0;
     margin: 0; }
     .widget-area ul a {
       text-decoration: none;
-      color: #248a83; }
+      color: #248a83;
+      font-family: "merriweatherlight"; }
+
+.contact-info-sidebar p {
+  font-family: "merriweatherlight"; }
 
 .contact-info-sidebar a {
   text-decoration: none;
-  color: #248a83; }
+  color: #248a83;
+  font-size: 1rem;
+  font-family: "merriweatherlight"; }
   .contact-info-sidebar a i {
     color: black; }
+
+.business-hours-widget-class p {
+  font-family: "merriweatherlight"; }
+  .business-hours-widget-class p span {
+    font-family: "merriweatherbold"; }
 
 .product-nav {
   -ms-flex-pack: center;
@@ -1162,21 +1174,24 @@ body .front-page-heading {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   border-bottom: 1px dashed gray;
-  margin-bottom: 2rem; }
+  margin-top: 3rem;
+  font-size: 1.5rem; }
   .product-nav .page-header {
     text-align: center;
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%; }
     .product-nav .page-header .page-title {
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      margin: 0; }
   .product-nav .shop-page-product-types {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
         justify-content: space-between;
-    width: 300px;
+    width: 350px;
     margin-bottom: 2rem;
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    font-family: "novecento_normal"; }
     .product-nav .shop-page-product-types a {
       text-decoration: none;
       color: #248a83;
@@ -1192,8 +1207,8 @@ body .front-page-heading {
   .content-area-product .site-main-product {
     width: 1120px; }
   .content-area-product img {
-    height: 200px;
-    width: 250px;
+    height: 250px;
+    width: 270px;
     display: block; }
 
 .product-post {
@@ -1247,6 +1262,13 @@ body .front-page-heading {
       font-family: "novecento_demibold";
       font-size: 2rem;
       color: #d99054; }
+
+.product-type-header h1 {
+  text-transform: uppercase;
+  font-family: "novecento_demibold"; }
+
+.product-type-header .taxonomy-description p {
+  font-family: "merriweatherlight"; }
 
 .product-type-archive-page .product-type-main {
   display: -ms-flexbox;
@@ -1303,3 +1325,9 @@ body .front-page-heading {
       color: #248a83;
       text-transform: uppercase;
       font-size: 2.1rem; }
+
+.post-23 {
+  width: 800px; }
+  .post-23 .entry-header, .post-23 .entry-title {
+    text-transform: uppercase;
+    margin-top: 4rem; }

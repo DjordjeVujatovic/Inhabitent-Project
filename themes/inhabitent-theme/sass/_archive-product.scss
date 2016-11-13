@@ -3,21 +3,24 @@
     display: flex;
     flex-wrap: wrap;
     border-bottom: 1px dashed gray;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
+    font-size:1.5rem;
 	.page-header {
 	   text-align: center;
 	   flex-basis: 100%;
 
 	   .page-title {
 	   	text-transform: uppercase;
+	   	margin:0;
 	   }
 	}
 	 .shop-page-product-types {
 	   	display:flex;
 	   	justify-content: space-between;
-	    width: 300px;
+	    width: 350px;
    	 	margin-bottom: 2rem;
     	font-size: 1.2rem;
+    	font-family: "novecento_normal";
 
 
 	   	a {
@@ -39,9 +42,11 @@
 		width:1120px;
 	}
 	img {
-		height:200px;
-		width:250px;
+		height:250px;
+		width:270px;
 		display:block;
+
+
 	}
 }
 .product-post {
@@ -64,6 +69,7 @@
     border-top-width: 6px;
     padding: 0px 10px;
     height: 60px;
+    
 
 	a{
 		text-decoration:none;

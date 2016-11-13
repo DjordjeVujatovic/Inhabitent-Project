@@ -4,6 +4,10 @@
 	padding-left:2rem;
 	padding-top:48px;
 
+	.widget-title {
+		text-transform: uppercase;
+	}
+
 	ul {
 		list-style-type: none;
 		padding:0;
@@ -12,17 +16,37 @@
 		a{
 			text-decoration: none;
 			color:#248a83;
+			font-family: "merriweatherlight";
 		}
 	}
 }
 
 .contact-info-sidebar {
+	p{
+	 font-family:"merriweatherlight";
+	}
 
 	a{
 		text-decoration:none;
 		color:#248a83;
+		font-size: 1rem;
+		font-family: "merriweatherlight";
 		i{
 			color:black;
 		}
 	}
+}
+.business-hours-widget-class {
+
+	   p{
+		font-family: "merriweatherlight";
+
+		span {
+			font-family: "merriweatherbold";
+		}
+
+	}
+}
+.widget_archive {
+
 }
