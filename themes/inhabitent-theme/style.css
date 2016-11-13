@@ -790,7 +790,9 @@ object {
     max-width: 50%; }
 
 .copyright-tag {
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-family: "novecento_normal"; }
 
 body .front-page-heading {
   text-align: center;
