@@ -1,8 +1,30 @@
 .post-23 {
-	width:800px;
+	width:770px;
+	margin-bottom:5rem;
 
-	.entry-header, .entry-title {
+	.entry-header, .entry-title, .entry-content {
 		text-transform: uppercase;
 		margin-top:4rem;
-  }
+
+		p {
+			text-transform: none;
+			font-family: "merriweatherlight";
+			font-size:17px;
+		}
+		label {
+			text-transform: uppercase;
+			font-family: "novecento_normal"
+		}
+	}
 }
+.wpcf7-form-control {
+	background-color:#f4f4f4;
+}
+
+.wpcf7-submit {
+	background-color:#248a83;
+}
+.wpcf7-textarea {
+	width:90%;
+}
+
