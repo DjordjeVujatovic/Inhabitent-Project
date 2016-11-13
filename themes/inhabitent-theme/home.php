@@ -11,7 +11,7 @@ get_header(); ?>
 	<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
-
+ 		  <div class = "journal-posts">
 			<?php if ( is_home() && ! is_front_page() ) : ?>
 				<header>
 					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
@@ -23,7 +23,6 @@ get_header(); ?>
 
 
 				<?php get_template_part( 'template-parts/content' ); ?>
-				<p><a class = "read-more-article" href ="#">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
 
 
 			<?php endwhile; ?>
@@ -35,6 +34,7 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 		<?php endif; ?>
+		</div>
 
 	</main><!-- #main -->
 	<?php get_sidebar(); ?>

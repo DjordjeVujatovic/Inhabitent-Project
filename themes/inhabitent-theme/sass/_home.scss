@@ -4,6 +4,8 @@
 	margin:0 auto;
 	padding-top: 48px;
 }
+
+.blog, .single-post, .date {
 .type-post {
 	width:70%;
 	width:640px;
@@ -34,15 +36,17 @@
     padding:1rem;
 
     a {
-      width: 75%;
-      height:25%;
       color: white;
       text-decoration: none;
       font-size: 2rem;
-    }
+     }
+   }
   }
 }
 }
+
+
+
 .read-more-article {
  border: 1px solid black;
  text-decoration: none;

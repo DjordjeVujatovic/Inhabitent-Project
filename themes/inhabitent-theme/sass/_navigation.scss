@@ -45,6 +45,10 @@ a {
 	border-bottom: 1px solid #e1e1e1;
 	font-family: "novecento_normal";
 
+	.nav-bar-right {
+		display:flex;
+	}
+
 	img {
 		height:40px;
 		padding-left: 55px;
@@ -107,7 +111,7 @@ a {
 		}
 	}
 	a {
-		display: block;
+		display: flex;
 		text-decoration: none;
 	}
 
@@ -120,7 +124,7 @@ a {
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
-	display: block;
+	display: flex;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -128,7 +132,7 @@ a {
 		display: none;
 	}
 	.main-navigation ul {
-		display: block;
+		display: flex;
 	}
 }
 

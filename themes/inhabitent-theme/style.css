@@ -479,6 +479,9 @@ a {
   background-color: rgba(255, 255, 255, 0.9);
   border-bottom: 1px solid #e1e1e1;
   font-family: "novecento_normal"; }
+  .main-navigation .nav-bar-right {
+    display: -ms-flexbox;
+    display: flex; }
   .main-navigation img {
     height: 40px;
     padding-left: 55px;
@@ -511,19 +514,22 @@ a {
     float: left;
     position: relative; }
   .main-navigation a {
-    display: block;
+    display: -ms-flexbox;
+    display: flex;
     text-decoration: none; }
 
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
-  display: block; }
+  display: -ms-flexbox;
+  display: flex; }
 
 @media screen and (min-width: 37.5em) {
   .menu-toggle {
     display: none; }
   .main-navigation ul {
-    display: block; } }
+    display: -ms-flexbox;
+    display: flex; } }
 
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
@@ -950,15 +956,15 @@ body .front-page-heading {
   margin: 0 auto;
   padding-top: 48px; }
 
-.type-post {
+.blog .type-post, .single-post .type-post, .date .type-post {
   width: 70%;
   width: 640px;
   padding-right: 2rem;
   padding-top: 48px; }
-  .type-post .entry-header {
+  .blog .type-post .entry-header, .single-post .type-post .entry-header, .date .type-post .entry-header {
     position: relative;
     width: 100%; }
-    .type-post .entry-header .entry-meta {
+    .blog .type-post .entry-header .entry-meta, .single-post .type-post .entry-header .entry-meta, .date .type-post .entry-header .entry-meta {
       position: absolute;
       bottom: 7px;
       right: 0;
@@ -967,16 +973,14 @@ body .front-page-heading {
       background: #248a83;
       text-align: center;
       text-transform: uppercase; }
-    .type-post .entry-header .entry-title {
+    .blog .type-post .entry-header .entry-title, .single-post .type-post .entry-header .entry-title, .date .type-post .entry-header .entry-title {
       position: absolute;
       top: 0px;
       background: #248a83;
       color: white;
       width: 75%;
       padding: 1rem; }
-      .type-post .entry-header .entry-title a {
-        width: 75%;
-        height: 25%;
+      .blog .type-post .entry-header .entry-title a, .single-post .type-post .entry-header .entry-title a, .date .type-post .entry-header .entry-title a {
         color: white;
         text-decoration: none;
         font-size: 2rem; }
@@ -1168,3 +1172,28 @@ body .front-page-heading {
       height: 200px;
       width: 250px;
       display: block; }
+
+.search-results-section {
+  width: 1120px;
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .search-results-section .search-results {
+    margin-right: 1.4rem; }
+  .search-results-section .site-main {
+    -ms-flex-preferred-size: 70%;
+        flex-basis: 70%; }
+    .search-results-section .site-main .page-title-search {
+      text-transform: uppercase;
+      font-size: 2.5rem;
+      padding-bottom: .5rem;
+      border-bottom: 1px solid #e1e1e1; }
+    .search-results-section .site-main article .entry-summary {
+      margin-bottom: 4.5rem; }
+    .search-results-section .site-main article .entry-header .entry-title, .search-results-section .site-main article .entry-header h2, .search-results-section .site-main article .entry-header a {
+      text-decoration: none;
+      color: #248a83;
+      text-transform: uppercase;
+      font-size: 2.1rem; }

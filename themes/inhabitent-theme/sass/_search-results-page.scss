@@ -1,0 +1,36 @@
+.search-results-section {
+	width: 1120px;
+	margin:0 auto;
+	display: flex;
+	flex-wrap:wrap;
+
+	.search-results {
+		margin-right:1.4rem;
+	}
+
+
+	.site-main {
+		flex-basis:70%;
+
+		.page-title-search {
+		 text-transform: uppercase;
+		 font-size:2.5rem;
+		 padding-bottom:.5rem;
+		 border-bottom: 1px solid #e1e1e1;
+}
+	article {
+		.entry-summary {
+			margin-bottom:4.5rem;
+		}
+		.entry-header{
+
+		 .entry-title, h2, a {
+			text-decoration:none;
+			color: #248a83;
+			text-transform: uppercase;
+			font-size:2.1rem;
+		   }
+	     }
+	   }
+     }
+   }
