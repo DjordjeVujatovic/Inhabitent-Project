@@ -50,6 +50,10 @@
     margin:0;
     padding:0;
 
+    .comment-author-avatar, img{
+      float:left;
+      margin-bottom:1rem;
+
     .comment-content {
       margin-bottom: 2rem;
       border-bottom: 1px solid #e1e1e1;
@@ -57,19 +61,39 @@
       .comments-title {
         text-transform: uppercase;
         margin-top:5rem;
+       }
       }
     }
   }
 }
 .reply {
   margin-bottom:1rem;
+  margin-left:5rem;
 
   .comment-reply-link {
     text-decoration: none;
     color: #248a83;
   }
 }
+.comments-title {
+  text-transform: uppercase;
+  margin-top:5rem;
+}
+
 .comment-form {
+
+  .logged-in-as, a{
+    text-decoration: none;
+    color: #248a83;
+    text-transform: uppercase;
+
+  }
+  .comment-form-comment {
+    label {
+    text-transform: uppercase;
+    }
+  }
+
   .comment-form-author{
     width: 330px;
     float: left;
@@ -77,14 +101,17 @@
     display: flex;
     flex-wrap: wrap;
 
-    label {
+     label {
       flex-basis:100%;
-    }
-    input {
+      text-transform: uppercase;
+     }
+     input {
       width:400px;
       margin-right:15px;
+      background-color: #f4f4f4;
     }
   }
+
   .comment-form-email {
     display: flex;
     flex-wrap: wrap;
@@ -92,15 +119,50 @@
 
     label {
       flex-basis:100%;
+      text-transform: uppercase;
+
     }
     input {
       width:400px;
+      background-color: #f4f4f4;
+
     }
   }
   .comment-form-url{
 
    input {
     width:700px;
+    background-color: #f4f4f4;
+  }
+  label {
+    text-transform: uppercase;
+   }
   }
  }
+.comment-reply-title {
+  text-transform: uppercase;
+  font-size:2rem;
+}
+.vcard, .fn {
+  margin-left:1rem;
+}
+.comment-metadata, time {
+  margin-left:1rem;
+
+  a{
+    text-decoration: none;
+    color: #248a83;
+  }
+}
+.social-media-button {
+
+  .like-button {
+    color:black;
+  }
+  .tweet-button {
+    color:black;
+  }
+  .pin-button{
+    color:black;
+  }
 }

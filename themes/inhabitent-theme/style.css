@@ -390,22 +390,19 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   border: 1px solid;
-  border-color: #ccc #ccc #bbb;
-  border-radius: 3px;
-  background: #e6e6e6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.8);
   font-size: 12px;
   font-size: 0.75rem;
   line-height: 1;
   padding: .6em 1em .4em;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
+  background-color: #248a83;
+  color: white;
+  text-transform: uppercase;
+  padding: .75rem 1.5rem; }
   button:hover,
   input[type="button"]:hover,
   input[type="reset"]:hover,
   input[type="submit"]:hover {
-    border-color: #ccc #bbb #aaa;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02); }
+    border-color: #ccc #bbb #aaa; }
   button:active, button:focus,
   input[type="button"]:active,
   input[type="button"]:focus,
@@ -424,8 +421,7 @@ input[type="password"],
 input[type="search"],
 textarea {
   color: #666;
-  border: 1px solid #ccc;
-  border-radius: 3px; }
+  border: 1px solid #ccc; }
   input[type="text"]:focus,
   input[type="email"]:focus,
   input[type="url"]:focus,
@@ -443,7 +439,8 @@ input[type="search"] {
 
 textarea {
   padding-left: 3px;
-  width: 100%; }
+  width: 100%;
+  background-color: #f4f4f4; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -1041,18 +1038,34 @@ body .front-page-heading {
     list-style: none;
     margin: 0;
     padding: 0; }
-    .comments-area .comment-list .comment-content {
-      margin-bottom: 2rem;
-      border-bottom: 1px solid #e1e1e1; }
-      .comments-area .comment-list .comment-content .comments-title {
-        text-transform: uppercase;
-        margin-top: 5rem; }
+    .comments-area .comment-list .comment-author-avatar, .comments-area .comment-list img {
+      float: left;
+      margin-bottom: 1rem; }
+      .comments-area .comment-list .comment-author-avatar .comment-content, .comments-area .comment-list img .comment-content {
+        margin-bottom: 2rem;
+        border-bottom: 1px solid #e1e1e1; }
+        .comments-area .comment-list .comment-author-avatar .comment-content .comments-title, .comments-area .comment-list img .comment-content .comments-title {
+          text-transform: uppercase;
+          margin-top: 5rem; }
 
 .reply {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  margin-left: 5rem; }
   .reply .comment-reply-link {
     text-decoration: none;
     color: #248a83; }
+
+.comments-title {
+  text-transform: uppercase;
+  margin-top: 5rem; }
+
+.comment-form .logged-in-as, .comment-form a {
+  text-decoration: none;
+  color: #248a83;
+  text-transform: uppercase; }
+
+.comment-form .comment-form-comment label {
+  text-transform: uppercase; }
 
 .comment-form .comment-form-author {
   width: 330px;
@@ -1064,10 +1077,12 @@ body .front-page-heading {
       flex-wrap: wrap; }
   .comment-form .comment-form-author label {
     -ms-flex-preferred-size: 100%;
-        flex-basis: 100%; }
+        flex-basis: 100%;
+    text-transform: uppercase; }
   .comment-form .comment-form-author input {
     width: 400px;
-    margin-right: 15px; }
+    margin-right: 15px;
+    background-color: #f4f4f4; }
 
 .comment-form .comment-form-email {
   display: -ms-flexbox;
@@ -1077,12 +1092,40 @@ body .front-page-heading {
   margin: 0; }
   .comment-form .comment-form-email label {
     -ms-flex-preferred-size: 100%;
-        flex-basis: 100%; }
+        flex-basis: 100%;
+    text-transform: uppercase; }
   .comment-form .comment-form-email input {
-    width: 400px; }
+    width: 400px;
+    background-color: #f4f4f4; }
 
 .comment-form .comment-form-url input {
-  width: 700px; }
+  width: 700px;
+  background-color: #f4f4f4; }
+
+.comment-form .comment-form-url label {
+  text-transform: uppercase; }
+
+.comment-reply-title {
+  text-transform: uppercase;
+  font-size: 2rem; }
+
+.vcard, .fn {
+  margin-left: 1rem; }
+
+.comment-metadata, time {
+  margin-left: 1rem; }
+  .comment-metadata a, time a {
+    text-decoration: none;
+    color: #248a83; }
+
+.social-media-button .like-button {
+  color: black; }
+
+.social-media-button .tweet-button {
+  color: black; }
+
+.social-media-button .pin-button {
+  color: black; }
 
 .widget-area {
   -ms-flex-preferred-size: 25%;
