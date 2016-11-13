@@ -1040,7 +1040,8 @@ body .front-page-heading {
     padding: 0; }
     .comments-area .comment-list .comment-author-avatar, .comments-area .comment-list img {
       float: left;
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem;
+      border-radius: 50%; }
       .comments-area .comment-list .comment-author-avatar .comment-content, .comments-area .comment-list img .comment-content {
         margin-bottom: 2rem;
         border-bottom: 1px solid #e1e1e1; }
