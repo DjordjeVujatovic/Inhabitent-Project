@@ -7,14 +7,14 @@
 
 .blog, .single-post, .date {
 .type-post {
-	width:70%;
-	width:640px;
+	width:800px;
 	padding-right: 2rem;
 	padding-top: 48px;
 
-  .entry-header {
+  .entry-header, img {
    position:relative;
    width:100%;
+
 
     .entry-meta {
       position: absolute;
@@ -44,8 +44,6 @@
   }
 }
 }
-
-
 
 .read-more-article {
  border: 1px solid black;
