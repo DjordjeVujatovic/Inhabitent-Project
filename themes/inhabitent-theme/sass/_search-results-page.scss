@@ -47,11 +47,14 @@
 
      a{
   	  text-decoration: none;
+  	  text-transform: uppercase;
+  	  font-family: "novecento_normal";
   	  border:1px solid #248a83;
   	  padding: .5rem .75rem;
   	  margin-right: .5rem;
   	  background-color:#248a83;
   	  color:white;
+
 
   	  &:hover {
   	  	background-color: #2f1339; 

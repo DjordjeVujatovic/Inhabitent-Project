@@ -1336,6 +1336,8 @@ body .front-page-heading {
     margin-right: .5rem; }
   .search-pagination a {
     text-decoration: none;
+    text-transform: uppercase;
+    font-family: "novecento_normal";
     border: 1px solid #248a83;
     padding: .5rem .75rem;
     margin-right: .5rem;
