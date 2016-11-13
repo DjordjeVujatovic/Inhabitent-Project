@@ -34,3 +34,27 @@
 	   }
      }
    }
+  .search-pagination {
+  	margin-bottom: 4rem;
+
+  	.current {
+  	  border:1px solid #808080;
+  	  padding: .5rem .75rem;
+  	  background-color: #808080;
+  	  color:white;
+  	  margin-right:.5rem;
+  	}
+
+     a{
+  	  text-decoration: none;
+  	  border:1px solid #248a83;
+  	  padding: .5rem .75rem;
+  	  margin-right: .5rem;
+  	  background-color:#248a83;
+  	  color:white;
+
+  	  &:hover {
+  	  	background-color: #2f1339; 
+  	  }
+  }
+}
