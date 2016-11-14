@@ -98,6 +98,9 @@ get_header(); ?>
       </div>
     </div>
   </div>
+  <p class = "adventures-button">
+      <a class = "more-adventures" href ="https://www.youtube.com/watch?v=dQw4w9WgXcQ">More Adventures</a>
+  </p>
 </div>
 </section>
 </body>

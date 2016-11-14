@@ -887,7 +887,8 @@ body .front-page-heading {
 
 .adventures-container {
   width: 1120px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 6rem; }
 
 .latest-adventures {
   text-align: center;
@@ -910,7 +911,8 @@ body .front-page-heading {
   background-size: cover;
   height: 100%;
   width: 50%;
-  border-right: 20px solid white; }
+  border-right: 20px solid white;
+  margin-bottom: 1rem; }
   .left-box .entry-title {
     color: white; }
 
@@ -954,6 +956,7 @@ body .front-page-heading {
 
 .story-info {
   margin-left: 1.5rem;
+  margin-right: .4rem;
   font-family: "merriweatherlight"; }
   .story-info .read-more-article {
     border: 1px solid white;
@@ -967,7 +970,8 @@ body .front-page-heading {
   font-size: 3rem; }
 
 .entry-title-top-right {
-  margin-top: 0; }
+  margin-top: 0;
+  padding-top: 1.5rem; }
   .entry-title-top-right a {
     text-decoration: none;
     color: white;
@@ -982,6 +986,16 @@ body .front-page-heading {
   text-decoration: none;
   color: white;
   font-size: 1.6rem; }
+
+.adventures-button a {
+  border: 1px solid #248a83;
+  padding: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-color: #248a83; }
+  .adventures-button a:hover {
+    background-color: darkslategray; }
 
 #primary {
   display: -ms-flexbox;
