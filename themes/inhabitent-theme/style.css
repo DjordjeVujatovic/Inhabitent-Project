@@ -952,6 +952,37 @@ body .front-page-heading {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
 
+.story-info {
+  margin-left: 1.5rem;
+  font-family: "merriweatherlight"; }
+  .story-info .read-more-article {
+    border: 1px solid white;
+    font-family: "novecento_normal"; }
+    .story-info .read-more-article:visited {
+      color: white; }
+
+.entry-title-left a {
+  text-decoration: none;
+  color: white;
+  font-size: 3rem; }
+
+.entry-title-top-right {
+  margin-top: 0; }
+  .entry-title-top-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.4rem; }
+
+.entry-title-bottom-left a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem; }
+
+.entry-title-bottom-right a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem; }
+
 #primary {
   display: -ms-flexbox;
   display: flex;

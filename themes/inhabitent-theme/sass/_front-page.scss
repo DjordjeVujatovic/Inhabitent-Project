@@ -183,3 +183,40 @@ body {
   display:flex;
   flex-wrap: wrap;
 }
+.story-info {
+  margin-left:1.5rem;
+  font-family: "merriweatherlight";
+  .read-more-article {
+    border:1px solid white;
+    font-family: "novecento_normal";
+
+    &:visited{
+      color:white;
+    }
+  }
+}
+.entry-title-left a{
+    text-decoration: none;
+    color:white;
+    font-size:3rem;
+  }
+
+.entry-title-top-right{
+  margin-top:0;
+
+   a{
+    text-decoration: none;
+    color:white;
+    font-size:2.4rem;
+  }
+}
+.entry-title-bottom-left a{
+    text-decoration: none;
+    color:white;
+    font-size:1.6rem;
+}
+.entry-title-bottom-right a {
+    text-decoration: none;
+    color:white;
+    font-size:1.6rem;
+}
