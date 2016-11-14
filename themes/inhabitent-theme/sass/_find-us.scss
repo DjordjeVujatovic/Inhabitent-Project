@@ -18,11 +18,15 @@
 	}
 }
 .wpcf7-form-control {
-	background-color:#f4f4f4;
+	background-color:#f4f4f4
 }
 
 .wpcf7-submit {
 	background-color:#248a83;
+		&:hover{
+	 background-color:darkslategray;
+	 border-color:none;
+	}
 }
 .wpcf7-textarea {
 	width:90%;

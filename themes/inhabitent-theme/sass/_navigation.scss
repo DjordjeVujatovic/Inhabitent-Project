@@ -31,7 +31,11 @@ a {
 		color:#248A83;
 		padding-right: 30px;
 		text-transform: uppercase;
+		&:hover{
+			color:black;
+		}
 	}
+
 }
 
 .main-navigation {

@@ -15,8 +15,9 @@
 			<h4>Contact Info</h4>
 			<i class="fa fa-envelope" aria-hidden="true"></i>
 			<a href = "main to: djordje_v@hotmail.com"> djordje_v@hotmail.com</a>
-
-			<p><i class="fa fa-phone" aria-hidden="true"></i> 778-688-7121</p>
+			<br>
+			<br>
+			<a href = ""><i class="fa fa-phone" aria-hidden="true"></i> 778-688-7121</p></a>
 			<i class="fa fa-facebook-square" aria-hidden="true"></i>
 			<i class="fa fa-twitter-square" aria-hidden="true"></i>
 			<i class="fa fa-google-plus-square" aria-hidden="true"></i>

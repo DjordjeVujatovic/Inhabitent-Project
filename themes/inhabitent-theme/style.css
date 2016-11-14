@@ -463,6 +463,8 @@ a {
   color: #248A83;
   padding-right: 30px;
   text-transform: uppercase; }
+  .menu-item a:hover {
+    color: black; }
 
 .main-navigation {
   clear: both;
@@ -772,6 +774,8 @@ object {
   .contact-info a {
     color: white;
     text-decoration: none; }
+    .contact-info a:hover {
+      text-decoration: underline; }
 
 .business-hours {
   -ms-flex-preferred-size: 25%;
@@ -968,6 +972,8 @@ body .front-page-heading {
   text-decoration: none;
   color: white;
   font-size: 3rem; }
+  .entry-title-left a:hover {
+    color: #f0e4d1; }
 
 .entry-title-top-right {
   margin-top: 0;
@@ -976,16 +982,22 @@ body .front-page-heading {
     text-decoration: none;
     color: white;
     font-size: 2.4rem; }
+    .entry-title-top-right a:hover {
+      color: #f0e4d1; }
 
 .entry-title-bottom-left a {
   text-decoration: none;
   color: white;
   font-size: 1.6rem; }
+  .entry-title-bottom-left a:hover {
+    color: #f0e4d1; }
 
 .entry-title-bottom-right a {
   text-decoration: none;
   color: white;
   font-size: 1.6rem; }
+  .entry-title-bottom-right a:hover {
+    color: #f0e4d1; }
 
 .adventures-button a {
   border: 1px solid #248a83;
@@ -1019,18 +1031,23 @@ body .front-page-heading {
       width: 75%;
       background: #248a83;
       text-align: center;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-family: "novecento_normal"; }
     .blog .type-post .entry-header .entry-title, .blog .type-post img .entry-title, .single-post .type-post .entry-header .entry-title, .single-post .type-post img .entry-title, .date .type-post .entry-header .entry-title, .date .type-post img .entry-title {
       position: absolute;
       top: 0px;
       background: #248a83;
       color: white;
       width: 75%;
-      padding: 1rem; }
+      padding: 1rem;
+      text-transform: uppercase; }
       .blog .type-post .entry-header .entry-title a, .blog .type-post img .entry-title a, .single-post .type-post .entry-header .entry-title a, .single-post .type-post img .entry-title a, .date .type-post .entry-header .entry-title a, .date .type-post img .entry-title a {
         color: white;
         text-decoration: none;
-        font-size: 2rem; }
+        font-family: "novecento_normal";
+        font-size: 2.2rem; }
+        .blog .type-post .entry-header .entry-title a:hover, .blog .type-post img .entry-title a:hover, .single-post .type-post .entry-header .entry-title a:hover, .single-post .type-post img .entry-title a:hover, .date .type-post .entry-header .entry-title a:hover, .date .type-post img .entry-title a:hover {
+          color: #f0e4d1; }
 
 .read-more-article {
   border: 1px solid black;
@@ -1403,6 +1420,9 @@ body .front-page-heading {
 
 .wpcf7-submit {
   background-color: #248a83; }
+  .wpcf7-submit:hover {
+    background-color: darkslategray;
+    border-color: none; }
 
 .wpcf7-textarea {
   width: 90%; }
@@ -1416,6 +1436,8 @@ body .front-page-heading {
   .search-field-container .search-submit {
     margin-right: 1rem;
     color: #248a83; }
+    .search-field-container .search-submit:hover {
+      color: black; }
 
 .search-field {
   display: none;

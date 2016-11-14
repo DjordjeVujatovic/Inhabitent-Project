@@ -3,8 +3,10 @@
   .search-submit {
   	margin-right:1rem;
   	color:#248a83;
- 
- }
+    &:hover{
+      color:black;
+    } 
+  }
 }
   .search-field {
 	display:none;
@@ -17,5 +19,5 @@
   }
   fieldset {
   	border:none;
-  }
+}
 

@@ -25,7 +25,11 @@
 	a{
     color: white;
     text-decoration: none;
-	}
+
+    &:hover{
+    text-decoration: underline;	
+      }
+   }
 }
 .business-hours {
 	flex-basis:25%;
