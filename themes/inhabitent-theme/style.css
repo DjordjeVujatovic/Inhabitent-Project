@@ -1426,3 +1426,49 @@ body .front-page-heading {
 
 fieldset {
   border: none; }
+
+.error-404 {
+  width: 800px; }
+  .error-404 .page-title {
+    text-transform: uppercase;
+    font-size: 2.4rem; }
+  .error-404 .page-content p {
+    font-family: "merriweatherlight"; }
+
+.widget_recent_entries .widgettitle {
+  text-transform: uppercase; }
+
+.widget_recent_entries ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .widget_recent_entries ul a {
+    text-decoration: none;
+    color: #248a83;
+    font-family: "merriweatherlight";
+    font-size: 18px; }
+    .widget_recent_entries ul a:hover {
+      color: #2f1339; }
+
+.widget_categories .widget-title {
+  text-transform: uppercase; }
+
+.widget_categories ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .widget_categories ul a {
+    text-decoration: none;
+    color: #248a83;
+    font-family: "merriweatherlight";
+    font-size: 18px; }
+    .widget_categories ul a:hover {
+      color: #2f1339; }
+
+.widget_archive {
+  margin-bottom: 5rem; }
+  .widget_archive .widgettitle {
+    text-transform: uppercase; }
+
+.not-found .search-form {
+  display: block !important; }

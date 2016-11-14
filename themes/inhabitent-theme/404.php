@@ -20,7 +20,7 @@ get_header(); ?>
 				<div class="page-content">
 					<p><?php echo esc_html( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?' ); ?></p>
 
-					<?php get_search_form(); ?>
+					<div class="search-container"><?php get_search_form(); ?></div>
 
 					<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
 
@@ -50,6 +50,7 @@ get_header(); ?>
 			</section><!-- .error-404 -->
 
 		</main><!-- #main -->
+		<?php get_sidebar(); ?>
 	</div><!-- #primary -->
 
 <?php get_footer(); ?>

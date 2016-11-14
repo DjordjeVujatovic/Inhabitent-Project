@@ -1,0 +1,69 @@
+.error-404 {
+	width:800px;
+
+	.page-title {
+		text-transform: uppercase;
+		font-size:2.4rem;
+	}
+	.page-content {
+
+		p{
+	     font-family: "merriweatherlight";
+		}
+	}
+}
+.widget_recent_entries {
+
+	.widgettitle {
+		text-transform: uppercase;
+	}
+	ul {
+		list-style:none;
+		margin:0;
+		padding:0;
+
+		a{
+			text-decoration: none;
+			color:#248a83;
+			font-family: "merriweatherlight";
+			font-size:18px;
+
+			&:hover{
+				color: #2f1339;
+			}
+		}
+	 }
+}
+.widget_categories {
+
+	.widget-title {
+		text-transform: uppercase;
+	}
+	ul {
+		list-style:none;
+		margin:0;
+		padding:0;
+
+		a{
+			text-decoration: none;
+			color:#248a83;
+			font-family: "merriweatherlight";
+			font-size:18px;
+
+			&:hover{
+				color: #2f1339;
+			}
+		}
+	 }
+}
+.widget_archive{
+	margin-bottom:5rem;
+	.widgettitle{
+		text-transform: uppercase;
+	}
+}
+.not-found {
+	.search-form {
+		display:block !important;
+	}
+}
