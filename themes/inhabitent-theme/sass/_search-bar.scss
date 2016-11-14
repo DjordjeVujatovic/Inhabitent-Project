@@ -1,0 +1,21 @@
+.search-field-container {
+	display:flex;
+  .search-submit {
+  	margin-right:1rem;
+  	color:#248a83;
+ 
+ }
+}
+  .search-field {
+	display:none;
+	width: 190px;
+    background: transparent;
+
+    .place-holder {
+    	font-size:1px;
+    }
+  }
+  fieldset {
+  	border:none;
+  }
+

@@ -18,6 +18,7 @@
  padding: .8rem 1.2rem;
  margin-top: 4%;
  text-transform: uppercase;
+ color:black;
 
  &:visited {
  	color:black;
@@ -153,17 +154,5 @@
   a{
     text-decoration: none;
     color: #248a83;
-  }
-}
-.social-media-button {
-
-  .like-button {
-    color:black;
-  }
-  .tweet-button {
-    color:black;
-  }
-  .pin-button{
-    color:black;
   }
 }

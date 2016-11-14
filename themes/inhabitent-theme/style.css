@@ -874,6 +874,7 @@ body .front-page-heading {
         text-decoration: none;
         color: black;
         text-transform: uppercase;
+        font-size: 1rem;
         font-family: "novecento_normal"; }
         .inhabitent-journal .individual-journal-post .journal-post-container a:hover {
           background-color: #248a83;
@@ -1018,7 +1019,8 @@ body .front-page-heading {
   font-size: .9rem;
   padding: .8rem 1.2rem;
   margin-top: 4%;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: black; }
   .pin-button:visited, .like-button:visited, .tweet-button:visited {
     color: black; }
   .pin-button:hover, .like-button:hover, .tweet-button:hover {
@@ -1123,15 +1125,6 @@ body .front-page-heading {
   .comment-metadata a, time a {
     text-decoration: none;
     color: #248a83; }
-
-.social-media-button .like-button {
-  color: black; }
-
-.social-media-button .tweet-button {
-  color: black; }
-
-.social-media-button .pin-button {
-  color: black; }
 
 .widget-area {
   -ms-flex-preferred-size: 25%;
@@ -1368,3 +1361,23 @@ body .front-page-heading {
 
 .wpcf7-textarea {
   width: 90%; }
+
+.super-star {
+  color: #d99054; }
+
+.search-field-container {
+  display: -ms-flexbox;
+  display: flex; }
+  .search-field-container .search-submit {
+    margin-right: 1rem;
+    color: #248a83; }
+
+.search-field {
+  display: none;
+  width: 190px;
+  background: transparent; }
+  .search-field .place-holder {
+    font-size: 1px; }
+
+fieldset {
+  border: none; }
