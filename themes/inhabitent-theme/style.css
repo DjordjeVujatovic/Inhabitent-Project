@@ -1492,5 +1492,10 @@ fieldset {
   .widget_archive .widgettitle {
     text-transform: uppercase; }
 
-.not-found .search-form {
-  display: block !important; }
+.post-archive-title {
+  text-transform: uppercase;
+  border-bottom: 1px solid #a1a1a1;
+  padding-bottom: 1rem;
+  width: 768px;
+  font-family: "novecento_normal";
+  font-size: 2.4rem; }
