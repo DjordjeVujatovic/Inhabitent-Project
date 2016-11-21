@@ -736,7 +736,8 @@ object {
   .about-container h2 {
     text-transform: uppercase;
     font-family: "novecento_demibold";
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    color: #2f1339; }
   .about-container p {
     font-family: "merriweatherlight";
     font-size: 1rem; }
@@ -1195,7 +1196,8 @@ body .front-page-heading {
   padding-left: 2rem;
   padding-top: 48px; }
   .widget-area .widget-title {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    color: #2f1339; }
   .widget-area ul {
     list-style-type: none;
     padding: 0;
@@ -1406,7 +1408,8 @@ body .front-page-heading {
   margin-bottom: 5rem; }
   .post-23 .entry-header, .post-23 .entry-title, .post-23 .entry-content {
     text-transform: uppercase;
-    margin-top: 4rem; }
+    margin-top: 4rem;
+    color: #2f1339; }
     .post-23 .entry-header p, .post-23 .entry-title p, .post-23 .entry-content p {
       text-transform: none;
       font-family: "merriweatherlight";
@@ -1421,8 +1424,7 @@ body .front-page-heading {
 .wpcf7-submit {
   background-color: #248a83; }
   .wpcf7-submit:hover {
-    background-color: darkslategray;
-    border-color: none; }
+    background-color: darkslategray; }
 
 .wpcf7-textarea {
   width: 90%; }

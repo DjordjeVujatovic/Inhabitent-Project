@@ -5,6 +5,7 @@
 	.entry-header, .entry-title, .entry-content {
 		text-transform: uppercase;
 		margin-top:4rem;
+		color: #2f1339;
 
 		p {
 			text-transform: none;
@@ -25,7 +26,6 @@
 	background-color:#248a83;
 		&:hover{
 	 background-color:darkslategray;
-	 border-color:none;
 	}
 }
 .wpcf7-textarea {
