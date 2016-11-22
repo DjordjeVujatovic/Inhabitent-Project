@@ -10,18 +10,18 @@
     }
    .single-product-content {
     flex-basis: 44%;
-    font-family: "merriweatherlight";
+    font-family: "merriweatherlight", serif;
     font-size: 1rem;
 
     .single-product-price {
-    font-family: "novecento_normal";
+    font-family: "novecento_normal", sans-serif;
     font-size: 1.8rem;
     margin:0;
     }
 
     .single-product-title {
     	text-transform: uppercase;
-    	font-family: "novecento_demibold";
+    	font-family: "novecento_demibold", sans-serif;
     	font-size:2rem;
     	color:#d99054;
 
@@ -32,9 +32,9 @@
     
     h1{
     text-transform: uppercase;
-    font-family:"novecento_demibold";
+    font-family:"novecento_demibold", sans-serif;
    }
    .taxonomy-description p {
-    font-family: "merriweatherlight";
+    font-family: "merriweatherlight", serif;
    }
  }

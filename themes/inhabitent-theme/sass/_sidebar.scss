@@ -17,21 +17,21 @@
 		a{
 			text-decoration: none;
 			color:#248a83;
-			font-family: "merriweatherlight";
+			font-family: "merriweatherlight", serif;
 		}
 	}
 }
 
 .contact-info-sidebar {
 	p{
-	 font-family:"merriweatherlight";
+	 font-family:"merriweatherlight", serif;
 	}
 
 	a{
 		text-decoration:none;
 		color:#248a83;
 		font-size: 1rem;
-		font-family: "merriweatherlight";
+		font-family: "merriweatherlight", serif;
 		i{
 			color:black;
 		}
@@ -40,14 +40,11 @@
 .business-hours-widget-class {
 
 	   p{
-		font-family: "merriweatherlight";
+		font-family: "merriweatherlight", serif;
 
 		span {
-			font-family: "merriweatherbold";
+			font-family: "merriweatherbold", serif;
 		}
 
 	}
-}
-.widget_archive {
-
 }

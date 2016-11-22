@@ -13,13 +13,13 @@
 		color:#d99054;
 		text-transform: uppercase;
 		font-size:1.2rem;
-		font-family: "novecento_demibold";
+		font-family: "novecento_demibold", sans-serif;
 	}
 
 }
 .contact-info{
 	flex-basis:25%;
-	font-family: "merriweatherlight";
+	font-family: "merriweatherlight", serif;
 	line-height: 20px;
 
 	a{
@@ -34,10 +34,10 @@
 .business-hours {
 	flex-basis:25%;
 	.day-of-week{
-	font-family: "merriweatherbold";
+	font-family: "merriweatherbold", serif;
     }
     .hours {
-    	font-family: "merriweatherlight";
+    	font-family: "merriweatherlight", serif;
     }
 }
 .footer-logo {
@@ -51,5 +51,5 @@
 .copyright-tag {
 	margin: 0 auto;
 	text-transform: uppercase;
-	font-family: "novecento_normal";
+	font-family: "novecento_normal", sans-serif;
 }

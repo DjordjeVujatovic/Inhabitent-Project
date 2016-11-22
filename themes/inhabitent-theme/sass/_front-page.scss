@@ -5,7 +5,7 @@ body {
     padding-top: 20px;
     padding-bottom:20px;
     font-size: 2.5rem;
-    font-family: "novecento_normal";
+    font-family: "novecento_normal", sans-serif;
   }
 }
 .home-hero-image{
@@ -29,7 +29,7 @@ body {
     border-top-width:10px;
 
     p{
-      font-family: "merriweatherlight";
+      font-family: "merriweatherlight", serif;
       font-size: 15px;
       line-height: 25px;
     }
@@ -44,7 +44,7 @@ body {
       color: white;
       text-transform:uppercase;
       background:#248a83;
-      font-family: "novecento_normal";
+      font-family: "novecento_normal", sans-serif;
 
       &:hover {
         background-color: darkslategray; 
@@ -82,14 +82,14 @@ body {
        width: 365.5px;
        padding:1.5rem;
        border-top-width: 4px;
-       font-family: "merriweatherlight";
+       font-family: "merriweatherlight", serif;
        font-size:.75rem;
       
 
       h3 {
         color: #248a83;
         font-size: 1.4rem;
-        font-family: "novecento_demibold";
+        font-family: "novecento_demibold", sans-serif;
         margin-top: 5px;
       }
       a {
@@ -99,7 +99,7 @@ body {
         color:black;
         text-transform: uppercase;
         font-size:1rem;
-        font-family: "novecento_normal";
+        font-family: "novecento_normal", sans-serif;
 
         &:hover {
         background-color: #248a83;
@@ -189,10 +189,10 @@ body {
 .story-info {
   margin-left:1.5rem;
   margin-right:.4rem;
-  font-family: "merriweatherlight";
+  font-family: "merriweatherlight", serif;
   .read-more-article {
     border:1px solid white;
-    font-family: "novecento_normal";
+    font-family: "novecento_normal", sans-serif;
 
     &:visited{
       color:white;

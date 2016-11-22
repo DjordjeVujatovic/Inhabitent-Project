@@ -477,7 +477,7 @@ a {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.9);
   border-bottom: 1px solid #e1e1e1;
-  font-family: "novecento_normal"; }
+  font-family: "novecento_normal", sans-serif; }
   .main-navigation .nav-bar-right {
     display: -ms-flexbox;
     display: flex; }
@@ -724,7 +724,7 @@ object {
       align-items: center; }
   .about-hero h2 {
     color: white;
-    font-family: "novecento_demibold";
+    font-family: "novecento_demibold", sans-serif;
     font-size: 3rem;
     text-transform: uppercase; }
 
@@ -735,11 +735,11 @@ object {
   margin-bottom: 5rem; }
   .about-container h2 {
     text-transform: uppercase;
-    font-family: "novecento_demibold";
+    font-family: "novecento_demibold", sans-serif;
     font-size: 2.5rem;
     color: #2f1339; }
   .about-container p {
-    font-family: "merriweatherlight";
+    font-family: "merriweatherlight", serif;
     font-size: 1rem; }
   .about-container .about-section {
     margin: 3rem auto;
@@ -765,12 +765,12 @@ object {
     color: #d99054;
     text-transform: uppercase;
     font-size: 1.2rem;
-    font-family: "novecento_demibold"; }
+    font-family: "novecento_demibold", sans-serif; }
 
 .contact-info {
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
-  font-family: "merriweatherlight";
+  font-family: "merriweatherlight", serif;
   line-height: 20px; }
   .contact-info a {
     color: white;
@@ -782,9 +782,9 @@ object {
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%; }
   .business-hours .day-of-week {
-    font-family: "merriweatherbold"; }
+    font-family: "merriweatherbold", serif; }
   .business-hours .hours {
-    font-family: "merriweatherlight"; }
+    font-family: "merriweatherlight", serif; }
 
 .footer-logo {
   -ms-flex-preferred-size: 50%;
@@ -796,7 +796,7 @@ object {
 .copyright-tag {
   margin: 0 auto;
   text-transform: uppercase;
-  font-family: "novecento_normal"; }
+  font-family: "novecento_normal", sans-serif; }
 
 body .front-page-heading {
   text-align: center;
@@ -804,7 +804,7 @@ body .front-page-heading {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 2.5rem;
-  font-family: "novecento_normal"; }
+  font-family: "novecento_normal", sans-serif; }
 
 .home-hero-image {
   background: linear-gradient(rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.25)), url(../../images/inhabitent-logo-full.svg) no-repeat center center, url(../../images/home-hero.jpg);
@@ -827,7 +827,7 @@ body .front-page-heading {
     text-align: center;
     border-top-width: 10px; }
     .product-feed-container .individual-sections p {
-      font-family: "merriweatherlight";
+      font-family: "merriweatherlight", serif;
       font-size: 15px;
       line-height: 25px; }
     .product-feed-container .individual-sections:hover {
@@ -838,7 +838,7 @@ body .front-page-heading {
       color: white;
       text-transform: uppercase;
       background: #248a83;
-      font-family: "novecento_normal"; }
+      font-family: "novecento_normal", sans-serif; }
       .product-feed-container .individual-sections a:hover {
         background-color: darkslategray; }
   .product-feed-container img {
@@ -866,12 +866,12 @@ body .front-page-heading {
       width: 365.5px;
       padding: 1.5rem;
       border-top-width: 4px;
-      font-family: "merriweatherlight";
+      font-family: "merriweatherlight", serif;
       font-size: .75rem; }
       .inhabitent-journal .individual-journal-post .journal-post-container h3 {
         color: #248a83;
         font-size: 1.4rem;
-        font-family: "novecento_demibold";
+        font-family: "novecento_demibold", sans-serif;
         margin-top: 5px; }
       .inhabitent-journal .individual-journal-post .journal-post-container a {
         border: 1px solid black;
@@ -880,7 +880,7 @@ body .front-page-heading {
         color: black;
         text-transform: uppercase;
         font-size: 1rem;
-        font-family: "novecento_normal"; }
+        font-family: "novecento_normal", sans-serif; }
         .inhabitent-journal .individual-journal-post .journal-post-container a:hover {
           background-color: #248a83;
           color: white;
@@ -962,10 +962,10 @@ body .front-page-heading {
 .story-info {
   margin-left: 1.5rem;
   margin-right: .4rem;
-  font-family: "merriweatherlight"; }
+  font-family: "merriweatherlight", serif; }
   .story-info .read-more-article {
     border: 1px solid white;
-    font-family: "novecento_normal"; }
+    font-family: "novecento_normal", sans-serif; }
     .story-info .read-more-article:visited {
       color: white; }
 
@@ -1033,7 +1033,7 @@ body .front-page-heading {
       background: #248a83;
       text-align: center;
       text-transform: uppercase;
-      font-family: "novecento_normal"; }
+      font-family: "novecento_normal", sans-serif; }
     .blog .type-post .entry-header .entry-title, .blog .type-post img .entry-title, .single-post .type-post .entry-header .entry-title, .single-post .type-post img .entry-title, .date .type-post .entry-header .entry-title, .date .type-post img .entry-title {
       position: absolute;
       top: 0px;
@@ -1045,7 +1045,7 @@ body .front-page-heading {
       .blog .type-post .entry-header .entry-title a, .blog .type-post img .entry-title a, .single-post .type-post .entry-header .entry-title a, .single-post .type-post img .entry-title a, .date .type-post .entry-header .entry-title a, .date .type-post img .entry-title a {
         color: white;
         text-decoration: none;
-        font-family: "novecento_normal";
+        font-family: "novecento_normal", sans-serif;
         font-size: 2.2rem; }
         .blog .type-post .entry-header .entry-title a:hover, .blog .type-post img .entry-title a:hover, .single-post .type-post .entry-header .entry-title a:hover, .single-post .type-post img .entry-title a:hover, .date .type-post .entry-header .entry-title a:hover, .date .type-post img .entry-title a:hover {
           color: #f0e4d1; }
@@ -1078,7 +1078,7 @@ body .front-page-heading {
 .pin-button, .like-button, .tweet-button {
   border: 1px solid black;
   text-decoration: none;
-  font-family: "novecento_normal";
+  font-family: "novecento_normal", sans-serif;
   font-size: .9rem;
   padding: .8rem 1.2rem;
   margin-top: 4%;
@@ -1205,23 +1205,23 @@ body .front-page-heading {
     .widget-area ul a {
       text-decoration: none;
       color: #248a83;
-      font-family: "merriweatherlight"; }
+      font-family: "merriweatherlight", serif; }
 
 .contact-info-sidebar p {
-  font-family: "merriweatherlight"; }
+  font-family: "merriweatherlight", serif; }
 
 .contact-info-sidebar a {
   text-decoration: none;
   color: #248a83;
   font-size: 1rem;
-  font-family: "merriweatherlight"; }
+  font-family: "merriweatherlight", serif; }
   .contact-info-sidebar a i {
     color: black; }
 
 .business-hours-widget-class p {
-  font-family: "merriweatherlight"; }
+  font-family: "merriweatherlight", serif; }
   .business-hours-widget-class p span {
-    font-family: "merriweatherbold"; }
+    font-family: "merriweatherbold", serif; }
 
 .product-nav {
   -ms-flex-pack: center;
@@ -1248,7 +1248,7 @@ body .front-page-heading {
     width: 350px;
     margin-bottom: 2rem;
     font-size: 1.2rem;
-    font-family: "novecento_normal"; }
+    font-family: "novecento_normal", sans-serif; }
     .product-nav .shop-page-product-types a {
       text-decoration: none;
       color: #248a83;
@@ -1308,24 +1308,24 @@ body .front-page-heading {
   .single-product-container .single-product-content {
     -ms-flex-preferred-size: 44%;
         flex-basis: 44%;
-    font-family: "merriweatherlight";
+    font-family: "merriweatherlight", serif;
     font-size: 1rem; }
     .single-product-container .single-product-content .single-product-price {
-      font-family: "novecento_normal";
+      font-family: "novecento_normal", sans-serif;
       font-size: 1.8rem;
       margin: 0; }
     .single-product-container .single-product-content .single-product-title {
       text-transform: uppercase;
-      font-family: "novecento_demibold";
+      font-family: "novecento_demibold", sans-serif;
       font-size: 2rem;
       color: #d99054; }
 
 .product-type-header h1 {
   text-transform: uppercase;
-  font-family: "novecento_demibold"; }
+  font-family: "novecento_demibold", sans-serif; }
 
 .product-type-header .taxonomy-description p {
-  font-family: "merriweatherlight"; }
+  font-family: "merriweatherlight", serif; }
 
 .product-type-archive-page .product-type-main {
   display: -ms-flexbox;
@@ -1394,7 +1394,7 @@ body .front-page-heading {
   .search-pagination a {
     text-decoration: none;
     text-transform: uppercase;
-    font-family: "novecento_normal";
+    font-family: "novecento_normal", sans-serif;
     border: 1px solid #248a83;
     padding: .5rem .75rem;
     margin-right: .5rem;
@@ -1412,11 +1412,11 @@ body .front-page-heading {
     color: #2f1339; }
     .post-23 .entry-header p, .post-23 .entry-title p, .post-23 .entry-content p {
       text-transform: none;
-      font-family: "merriweatherlight";
+      font-family: "merriweatherlight", serif;
       font-size: 17px; }
     .post-23 .entry-header label, .post-23 .entry-title label, .post-23 .entry-content label {
       text-transform: uppercase;
-      font-family: "novecento_normal"; }
+      font-family: "novecento_normal", sans-serif; }
 
 .wpcf7-form-control {
   background-color: #f4f4f4; }
@@ -1457,7 +1457,7 @@ fieldset {
     text-transform: uppercase;
     font-size: 2.4rem; }
   .error-404 .page-content p {
-    font-family: "merriweatherlight"; }
+    font-family: "merriweatherlight", serif; }
 
 .widget_recent_entries .widgettitle {
   text-transform: uppercase; }
@@ -1469,7 +1469,7 @@ fieldset {
   .widget_recent_entries ul a {
     text-decoration: none;
     color: #248a83;
-    font-family: "merriweatherlight";
+    font-family: "merriweatherlight", serif;
     font-size: 18px; }
     .widget_recent_entries ul a:hover {
       color: #2f1339; }
@@ -1484,7 +1484,7 @@ fieldset {
   .widget_categories ul a {
     text-decoration: none;
     color: #248a83;
-    font-family: "merriweatherlight";
+    font-family: "merriweatherlight", serif;
     font-size: 18px; }
     .widget_categories ul a:hover {
       color: #2f1339; }
@@ -1499,5 +1499,5 @@ fieldset {
   border-bottom: 1px solid #a1a1a1;
   padding-bottom: 1rem;
   width: 768px;
-  font-family: "novecento_normal";
+  font-family: "novecento_normal", sans-serif;
   font-size: 2.4rem; }
