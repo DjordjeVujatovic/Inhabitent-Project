@@ -17,10 +17,12 @@
 			<a href = "main to: djordje_v@hotmail.com"> djordje_v@hotmail.com</a>
 			<br>
 			<br>
-			<a href = ""><i class="fa fa-phone" aria-hidden="true"></i> 778-688-7121</p></a>
+			<a href = ""><i class="fa fa-phone" aria-hidden="true"></i> 778-688-7121</a>
+		<div class = "social-media-icons">
 			<i class="fa fa-facebook-square" aria-hidden="true"></i>
 			<i class="fa fa-twitter-square" aria-hidden="true"></i>
 			<i class="fa fa-google-plus-square" aria-hidden="true"></i>
+		</div>
 		</div>
 		<div class= "business-hours">
 			<h4>Business Hours</h4>

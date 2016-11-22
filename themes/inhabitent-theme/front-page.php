@@ -6,7 +6,6 @@
  */
 
 get_header(); ?>
-<body class = "front-page-container">
   <div class="home-hero-image"></div>
   <section class = "product-feed-container">
     <h2 class = "front-page-heading">shop stuff</h2>
@@ -36,12 +35,12 @@ get_header(); ?>
 
 
 
-  </main><!-- #main -->
-</div><!-- #primary -->
+   </main><!-- #main -->
+ </div><!-- #primary -->
 </section>
-<secttion class = "inhabitent-journal-title">
+<section class = "inhabitent-journal-title">
   <h2 class = "front-page-heading">Inhabitent Journal</h2>
-</secttion>
+</section>
 <div class = "inhabitent-journal">
   <?php
   $args = array( 
@@ -103,6 +102,5 @@ get_header(); ?>
   </p>
 </div>
 </section>
-</body>
 
 <?php get_footer(); ?>
