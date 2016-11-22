@@ -29,7 +29,7 @@
 			<p class = "day-of-week">Sunday: <span class = "hours">Closed</span></p>
 		</div>
 		<div class = "footer-logo">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/inhabitent-logo-text.svg">  
+			<img src="<?php echo get_template_directory_uri(); ?>/images/inhabitent-logo-text.svg" alt = "Inhabitent Logo - Tent">  
 		</div>
 		<div class= "copyright-tag">
 			<p>Copyright © 2016 Inhabitent</p>
