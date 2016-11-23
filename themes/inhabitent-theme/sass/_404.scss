@@ -62,3 +62,11 @@
 		text-transform: uppercase;
 	}
 }
+.not-found {
+	.search-field {
+		display: block;
+	}
+ i {
+	display:none;
+}
+}

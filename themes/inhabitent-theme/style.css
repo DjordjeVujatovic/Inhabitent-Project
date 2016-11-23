@@ -1447,13 +1447,13 @@ body .front-page-heading {
 .super-star {
   color: #d99054; }
 
-.search-field-container {
+.main-navigation, .search-field-container {
   display: -ms-flexbox;
   display: flex; }
-  .search-field-container .search-submit {
+  .main-navigation .search-submit, .search-field-container .search-submit {
     margin-right: 1rem;
     color: #248a83; }
-    .search-field-container .search-submit:hover {
+    .main-navigation .search-submit:hover, .search-field-container .search-submit:hover {
       color: black; }
 
 .search-field {
@@ -1508,6 +1508,12 @@ fieldset {
   margin-bottom: 5rem; }
   .widget_archive .widgettitle {
     text-transform: uppercase; }
+
+.not-found .search-field {
+  display: block; }
+
+.not-found i {
+  display: none; }
 
 .post-archive-title {
   text-transform: uppercase;
