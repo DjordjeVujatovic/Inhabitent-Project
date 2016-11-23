@@ -1,3 +1,4 @@
+![Alt text](/inhabitent-screenshot.png)
 # Project 4 - Inhabitent-Project
 
 ## Summary
