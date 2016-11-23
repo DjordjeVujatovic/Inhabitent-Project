@@ -1023,14 +1023,14 @@ body .front-page-heading {
   margin: 0 auto;
   padding-top: 48px; }
 
-.blog .type-post, .single-post .type-post, .date .type-post {
+.blog .type-post, .single-post .type-post, .date .type-post, .category .type-post, .tag .type-post {
   width: 800px;
   padding-right: 2rem;
   padding-top: 48px; }
-  .blog .type-post .entry-header, .blog .type-post img, .single-post .type-post .entry-header, .single-post .type-post img, .date .type-post .entry-header, .date .type-post img {
+  .blog .type-post .entry-header, .blog .type-post img, .single-post .type-post .entry-header, .single-post .type-post img, .date .type-post .entry-header, .date .type-post img, .category .type-post .entry-header, .category .type-post img, .tag .type-post .entry-header, .tag .type-post img {
     position: relative;
     width: 100%; }
-    .blog .type-post .entry-header .entry-meta, .blog .type-post img .entry-meta, .single-post .type-post .entry-header .entry-meta, .single-post .type-post img .entry-meta, .date .type-post .entry-header .entry-meta, .date .type-post img .entry-meta {
+    .blog .type-post .entry-header .entry-meta, .blog .type-post img .entry-meta, .single-post .type-post .entry-header .entry-meta, .single-post .type-post img .entry-meta, .date .type-post .entry-header .entry-meta, .date .type-post img .entry-meta, .category .type-post .entry-header .entry-meta, .category .type-post img .entry-meta, .tag .type-post .entry-header .entry-meta, .tag .type-post img .entry-meta {
       position: absolute;
       bottom: 7px;
       right: 0;
@@ -1040,7 +1040,7 @@ body .front-page-heading {
       text-align: center;
       text-transform: uppercase;
       font-family: "novecento_normal", sans-serif; }
-    .blog .type-post .entry-header .entry-title, .blog .type-post img .entry-title, .single-post .type-post .entry-header .entry-title, .single-post .type-post img .entry-title, .date .type-post .entry-header .entry-title, .date .type-post img .entry-title {
+    .blog .type-post .entry-header .entry-title, .blog .type-post img .entry-title, .single-post .type-post .entry-header .entry-title, .single-post .type-post img .entry-title, .date .type-post .entry-header .entry-title, .date .type-post img .entry-title, .category .type-post .entry-header .entry-title, .category .type-post img .entry-title, .tag .type-post .entry-header .entry-title, .tag .type-post img .entry-title {
       position: absolute;
       top: 0px;
       background: #248a83;
@@ -1048,12 +1048,12 @@ body .front-page-heading {
       width: 75%;
       padding: 1rem;
       text-transform: uppercase; }
-      .blog .type-post .entry-header .entry-title a, .blog .type-post img .entry-title a, .single-post .type-post .entry-header .entry-title a, .single-post .type-post img .entry-title a, .date .type-post .entry-header .entry-title a, .date .type-post img .entry-title a {
+      .blog .type-post .entry-header .entry-title a, .blog .type-post img .entry-title a, .single-post .type-post .entry-header .entry-title a, .single-post .type-post img .entry-title a, .date .type-post .entry-header .entry-title a, .date .type-post img .entry-title a, .category .type-post .entry-header .entry-title a, .category .type-post img .entry-title a, .tag .type-post .entry-header .entry-title a, .tag .type-post img .entry-title a {
         color: white;
         text-decoration: none;
         font-family: "novecento_normal", sans-serif;
         font-size: 2.2rem; }
-        .blog .type-post .entry-header .entry-title a:hover, .blog .type-post img .entry-title a:hover, .single-post .type-post .entry-header .entry-title a:hover, .single-post .type-post img .entry-title a:hover, .date .type-post .entry-header .entry-title a:hover, .date .type-post img .entry-title a:hover {
+        .blog .type-post .entry-header .entry-title a:hover, .blog .type-post img .entry-title a:hover, .single-post .type-post .entry-header .entry-title a:hover, .single-post .type-post img .entry-title a:hover, .date .type-post .entry-header .entry-title a:hover, .date .type-post img .entry-title a:hover, .category .type-post .entry-header .entry-title a:hover, .category .type-post img .entry-title a:hover, .tag .type-post .entry-header .entry-title a:hover, .tag .type-post img .entry-title a:hover {
           color: #f0e4d1; }
 
 .read-more-article {
