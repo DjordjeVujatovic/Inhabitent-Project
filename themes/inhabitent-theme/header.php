@@ -25,7 +25,7 @@
 
 
 					<nav id="site-navigation" class="main-navigation" role="navigation">
-
+					  <div class = "nav-content">
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?>
 							<img src="<?php echo get_template_directory_uri(); ?>/images/inhabitent-logo-tent.svg" alt= "Inhabitent Logo - Tent">  
 						</a>
@@ -33,6 +33,7 @@
 						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 						<?php get_search_form();?>
+						</div>
 						</div>
 					</nav><!-- #site-navigation -->
 				</header><!-- #masthead -->
