@@ -1,35 +1,30 @@
 .single-product-container {
-	display: flex;
-	margin-top: 2rem;
-    margin-bottom: 2rem;
-
+ display: flex;
+ margin-top: 2rem;
+ margin-bottom: 2rem;
   .single-product-thumb {
-	margin-right: 3rem;
-    margin: 1.5rem;
-    flex-basis: 55%;
-    }
-   .single-product-content {
-    flex-basis: 44%;
-    font-family: "merriweatherlight", serif;
-    font-size: 1rem;
-
+   margin-right: 3rem;
+   margin: 1.5rem;
+   flex-basis: 55%;
+  }
+  .single-product-content {
+   flex-basis: 44%;
+   font-family: "merriweatherlight", serif;
+   font-size: 1rem;
     .single-product-price {
     font-family: "novecento_normal", sans-serif;
     font-size: 1.8rem;
     margin:0;
     }
-
     .single-product-title {
     	text-transform: uppercase;
     	font-family: "novecento_demibold", sans-serif;
     	font-size:2rem;
     	color:#d99054;
-
     	}
     }
 }
 .product-type-header {
-    
     h1{
     text-transform: uppercase;
     font-family:"novecento_demibold", sans-serif;
