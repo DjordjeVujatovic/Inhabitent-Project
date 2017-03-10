@@ -11,32 +11,22 @@ get_header(); ?>
     <h2 class = "front-page-heading">shop stuff</h2>
     <div id="primary" class="content-area">
       <main id="main" class="site-main" role="main">
-
-
         <?php while ( have_posts() ) : the_post(); ?>
-
-         <?php get_template_part( 'template-parts/content', 'page' ); ?>
-
-
-       <?php endwhile; // End of the loop. ?>
-
-       <?php
-       $terms = get_terms('product_type');
-       foreach ($terms as $term) :
+          <?php get_template_part( 'template-parts/content', 'page' ); ?>
+        <?php endwhile; // End of the loop. ?>
+        <?php
+          $terms = get_terms('product_type');
+          foreach ($terms as $term) :
         ?>
-
-      <?php $url = get_term_link($term->slug, 'product_type'); ?>
-      <div class = "individual-sections">
-        <img src="<?php echo get_template_directory_uri() ?>/images/<?php echo $term->slug?>.svg">
-        <p><?php echo $term->description ?></p>
-        <p><a href="<?php echo $url ?>"><?php echo $term->name ?></a></p>
-      </div>
+        <?php $url = get_term_link($term->slug, 'product_type'); ?>
+        <div class = "individual-sections">
+          <img src="<?php echo get_template_directory_uri() ?>/images/<?php echo $term->slug?>.svg">
+          <p><?php echo $term->description ?></p>
+          <p><a href="<?php echo $url ?>"><?php echo $term->name ?></a></p>
+        </div>
     <?php endforeach;?>
-
-
-
    </main><!-- #main -->
- </div><!-- #primary -->
+  </div><!-- #primary -->
 </section>
 <section class = "inhabitent-journal-title">
   <h2 class = "front-page-heading">Inhabitent Journal</h2>
@@ -72,7 +62,6 @@ get_header(); ?>
   	<a class = "read-more-article" href = "">Read More</a>
    </div>
   </div>
-
   <div class="right-mix">
     <div class="top-right">
       <div class="right-box-top">
