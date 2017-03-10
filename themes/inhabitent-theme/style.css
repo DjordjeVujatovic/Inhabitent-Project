@@ -1510,7 +1510,8 @@ fieldset {
     text-transform: uppercase; }
 
 .not-found .search-field {
-  display: block; }
+  display: block;
+  visibility: visible; }
 
 .not-found i {
   display: none; }

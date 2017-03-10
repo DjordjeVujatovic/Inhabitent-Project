@@ -1,60 +1,52 @@
 .error-404 {
-	width:800px;
-
-	.page-title {
-		text-transform: uppercase;
-		font-size:2.4rem;
-	}
-	.page-content {
-
-		p{
-	     font-family: "merriweatherlight", serif;
-		}
-	}
+ width:800px;
+  .page-title {
+	text-transform: uppercase;
+	font-size:2.4rem;
+    }
+  .page-content {
+	p{
+	  font-family: "merriweatherlight", serif;
+	 }
+   }
 }
 .widget_recent_entries {
-
-	.widgettitle {
-		text-transform: uppercase;
-	}
-	ul {
-		list-style:none;
-		margin:0;
-		padding:0;
-
-		a{
-			text-decoration: none;
-			color:#248a83;
-			font-family: "merriweatherlight", serif;
-			font-size:18px;
-
-			&:hover{
-				color: #2f1339;
-			}
-		}
-	 }
+   .widgettitle {
+	 text-transform: uppercase;
+   }
+     ul {
+	  list-style:none;
+	  margin:0;
+	  padding:0;
+	  a{
+	  text-decoration: none;
+	  color:#248a83;
+	  font-family: "merriweatherlight", serif;
+	  font-size:18px;
+		&:hover{
+		  color: #2f1339;
+		 }
+	  }
+   }
 }
 .widget_categories {
-
-	.widget-title {
-		text-transform: uppercase;
-	}
-	ul {
-		list-style:none;
-		margin:0;
-		padding:0;
-
-		a{
-			text-decoration: none;
-			color:#248a83;
-			font-family: "merriweatherlight", serif;
-			font-size:18px;
-
-			&:hover{
-				color: #2f1339;
-			}
+  .widget-title {
+	text-transform: uppercase;
+  }
+  ul {
+    list-style:none;
+	margin:0;
+	padding:0;
+	a{
+	 text-decoration: none;
+	 color:#248a83;
+	 font-family: "merriweatherlight", serif;
+	 font-size:18px;
+     &:hover{
+	   color: #2f1339;
 		}
-	 }
+	  }
+   }
 }
 .widget_archive{
 	margin-bottom:5rem;
@@ -65,8 +57,9 @@
 .not-found {
 	.search-field {
 		display: block;
+		visibility:visible;
 	}
- i {
+    i {
 	display:none;
-}
+  }
 }
