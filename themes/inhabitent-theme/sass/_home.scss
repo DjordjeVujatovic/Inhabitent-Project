@@ -4,17 +4,14 @@
 	margin:0 auto;
 	padding-top: 48px;
 }
-
 .blog, .single-post, .date, .category, .tag {
-.type-post {
-	width:800px;
-	padding-right: 2rem;
-	padding-top: 48px;
-
+ .type-post {
+   width:800px;
+	 padding-right: 2rem;
+	 padding-top: 48px;
   .entry-header, img {
    position:relative;
    width:100%;
-
   .entry-meta {
     position: absolute;
     bottom: 7px;
@@ -25,10 +22,8 @@
     text-align: center;
     text-transform:uppercase;
     font-family: "novecento_normal", sans-serif;
-
-    }
-
-   .entry-title {
+  }
+  .entry-title {
     position:absolute;
     top:0px;
     background: #248a83;
@@ -41,7 +36,6 @@
       text-decoration: none;
       font-family: "novecento_normal", sans-serif;
       font-size: 2.2rem;
-
       &:hover{
         color: #f0e4d1;
        }
@@ -52,21 +46,19 @@
 }
 
 .read-more-article {
- border: 1px solid black;
- text-decoration: none;
- color: black;
- font-size: 1rem;
- padding: .8rem 1.2rem;
- margin-top: 4%;
- text-transform: uppercase;
-
- &:visited {
-  color:black;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  padding: .8rem 1.2rem;
+  margin-top: 4%;
+  text-transform: uppercase;
+  &:visited {
+   color:black;
  }
-
-&:hover {
- background-color: #248a83;
- border: 1px solid #248a83;
- color: white;
-}
+  &:hover {
+   background-color: #248a83;
+   border: 1px solid #248a83;
+   color: white;
+ }
 }
