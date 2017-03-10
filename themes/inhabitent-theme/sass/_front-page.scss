@@ -1,11 +1,11 @@
 body {
-  .front-page-heading{
-    text-align: center;
-    text-transform: uppercase;
-    padding-top: 20px;
-    padding-bottom:20px;
-    font-size: 2.5rem;
-    font-family: "novecento_normal", sans-serif;
+.front-page-heading{
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom:20px;
+  font-size: 2.5rem;
+  font-family: "novecento_normal", sans-serif;
   }
 }
 .home-hero-image{
@@ -16,7 +16,6 @@ body {
 .product-feed-container {
   width:1120px;
   margin:0 auto;
-
   .site-main {
     display:flex;
     justify-content:space-between;
@@ -27,17 +26,14 @@ body {
     border:1px solid #e1e1e1;
     text-align:center;
     border-top-width:10px;
-
     p{
       font-family: "merriweatherlight", serif;
       font-size: 15px;
       line-height: 25px;
     }
-
     &:hover {
       border-color:#d99054;
     }
-
     a{
       padding: 1rem 2.8rem;
       text-decoration:none;
@@ -45,14 +41,10 @@ body {
       text-transform:uppercase;
       background:#248a83;
       font-family: "novecento_normal", sans-serif;
-
       &:hover {
         background-color: darkslategray; 
       }
-
     }
-
-
   }
   img {
     height:80px;
@@ -64,28 +56,23 @@ body {
   text-align:center;
   text-transform:uppercase;
   margin:4rem;
-
 }
 .inhabitent-journal {
-    width: 1120px;
-    margin: 0 auto;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: space-between;
-
-    .individual-journal-post {
-      max-width: 400px;
-      padding-left:11px;
-
-      .journal-post-container {
-       border: 1px solid #e1e1e1;
-       width: 365.5px;
-       padding:1.5rem;
-       border-top-width: 4px;
-       font-family: "merriweatherlight", serif;
-       font-size:.75rem;
-      
-
+  width: 1120px;
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  .individual-journal-post {
+    max-width: 400px;
+    padding-left:11px;
+    .journal-post-container {
+      border: 1px solid #e1e1e1;
+      width: 365.5px;
+      padding:1.5rem;
+      border-top-width: 4px;
+      font-family: "merriweatherlight", serif;
+      font-size:.75rem;
       h3 {
         color: #248a83;
         font-size: 1.4rem;
@@ -100,28 +87,24 @@ body {
         text-transform: uppercase;
         font-size:1rem;
         font-family: "novecento_normal", sans-serif;
-
         &:hover {
         background-color: #248a83;
         color:white;
         border-color: #248a83; 
         }
-
       }
     }
-
     img{
       width: 365.5px;
       height: 250px;
       display:block;
     }
-}
+  }
 }
 .adventures-container {
 	width:1120px;
 	margin:0 auto;
   margin-bottom: 6rem;
-
 }
 .latest-adventures {
 	text-align:center;
@@ -144,12 +127,9 @@ body {
   width:50%;
   border-right: 20px solid white;
   margin-bottom:1rem;
-
   .entry-title {
     color:white;
-    
   }
-
 }
 .top-right {
   width:100%;
@@ -193,7 +173,6 @@ body {
   .read-more-article {
     border:1px solid white;
     font-family: "novecento_normal", sans-serif;
-
     &:visited{
       color:white;
     }
@@ -204,7 +183,6 @@ body {
     text-decoration: none;
     color:white;
     font-size:3rem;
-
     &:hover{
       color:#f0e4d1;
     }
@@ -213,37 +191,32 @@ body {
 .entry-title-top-right{
   margin-top:0;
   padding-top:1.5rem;
-
    a{
     text-decoration: none;
     color:white;
     font-size:2.4rem;
-
     &:hover{
       color:#f0e4d1;
     }
   }
 }
 .entry-title-bottom-left a{
-    text-decoration: none;
-    color:white;
-    font-size:1.6rem;
-
-    &:hover{
-      color:#f0e4d1;
+  text-decoration: none;
+  color:white;
+  font-size:1.6rem;
+  &:hover{
+    color:#f0e4d1;
     }
 }
 .entry-title-bottom-right a {
     text-decoration: none;
     color:white;
     font-size:1.6rem;
-
     &:hover{
       color:#f0e4d1;
     }
 }
 .adventures-button{
-
   a{
     border: 1px solid #248a83;
     padding: 1rem;
@@ -251,7 +224,6 @@ body {
     text-transform: uppercase;
     color: white;
     background-color: #248a83;
-
     &:hover {
       background-color: darkslategray;
     }
