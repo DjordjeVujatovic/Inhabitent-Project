@@ -24,14 +24,10 @@ get_header(); ?>
 		    <a class = "pin-button" href ="#"><i class="fa fa-pinterest" aria-hidden="true"></i> Pin</a>
 		</div>
 		</div>
-
 	   </section>
-
-			<?php
-
-			?>
-			
-		<?php endwhile; // End of the loop. ?>
+		  <?php
+		  ?>	
+		  <?php endwhile; // End of the loop. ?>
 	</main><!-- #main -->
 </section>><!-- #primary -->
 <?php get_footer(); ?>
